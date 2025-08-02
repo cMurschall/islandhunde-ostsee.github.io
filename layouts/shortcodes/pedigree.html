@@ -1,0 +1,8 @@
+<div id="{{ .Get "id" }}"></div>
+<script>
+  fetch("/data/dogs/{{ .Get "datafile" }}.json")
+    .then(response => response.json())
+    .then(data => {
+        renderDogPedigreeChart("{{ .Get "id" }}", data);
+    });
+</script>

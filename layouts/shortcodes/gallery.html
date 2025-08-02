@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css" />
+<link rel="stylesheet" href="/css/lg-thumbnail.css" />
+<script src="/js/lightgallery.umd.js" defer></script>
+<script src="/js/lg-thumbnail.umd.js" defer></script>
+
+{{ $images := .Page.Resources.Match "**.jpeg" }}
+{{ $first := index $images 0 }}
+
+<div id="lightgallery" class="gallery-single">
+  <a href="{{ $first.RelPermalink }}" data-lg-size="1400-933" class="has-overlay">
+    <div class="overlay-icon">➤ Galerie öffnen</div>
+    <img src="{{ $first.RelPermalink }}" alt="{{ $first.Name }}" loading="lazy" />
+
+  </a>
+
+  <!-- restliche Bilder verstecken -->
+  {{ range $i, $img := $images }}
+    {{ if gt $i 0 }}
+      <a href="{{ $img.RelPermalink }}" data-lg-size="1400-933" style="display:none;">
+        <img src="{{ $img.RelPermalink }}" alt="{{ $img.Name }}" />
+      </a>
+    {{ end }}
+  {{ end }}
+</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    if (window.lightGallery) {
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: "a",
+        speed: 300,
+        download: false,
+        plugins: [lgThumbnail],
+        thumbnail: true,
+        loop: true,
+        controls: true,
+        counter: true,
+      });
+    }
+  });
+</script>
+
+<style>
+.gallery-single img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+.gallery-single img:hover {
+  transform: scale(1.02);
+}
+
+
+</style>

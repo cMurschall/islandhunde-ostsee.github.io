@@ -1,20 +1,29 @@
+
+
+
+
 :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 60px;
-    --footer-height: 60px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --content: rgb(31, 31, 31);
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
+  --gap: 24px;
+  --content-gap: 20px;
+  --nav-width: 1024px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+  --radius: 6px;
+
+  /* Basisfarben */
+  --theme: #ffffff;               /* Seitenhintergrund – reines Weiß */
+  --entry: #f9f9f9;               /* Box-Hintergrund – leicht abgesetzt */
+  --primary: #111111;             /* Haupttext – fast Schwarz */
+  --secondary: #666666;           /* Subtext, Meta – mittleres Grau */
+  --tertiary: #e0e0e0;            /* Linien, Rahmen – helles Grau */
+
+  --content: #222222;             /* Standard-Content-Text */
+  --code-block-bg: #f4f4f4;       /* Codeblock-Hintergrund – hellgrau */
+  --code-bg: #efefef;             /* Inline-Code – etwas heller */
+
+  --border: #e5e5e5;              /* Rahmenfarbe */
+  --highlight: #0d99ff;           /* Akzentfarbe – klares, modernes Blau */
 }
 
 .dark {

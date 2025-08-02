@@ -1,0 +1,35 @@
+{
+    "id": "IS30225/21",
+    "name_and_origin": "Gerplu Magni (IS)",
+    "isRoot": true,
+    "parents": [
+        {
+            "id": "IS19110/14",
+            "name_and_origin": "Gerplu Hrafntýr (IS)",
+            "parents": [
+                {
+                    "id": "IS08656/05",
+                    "name_and_origin": "Stokks-Sels Móra Skuggi (IS)"
+                },
+                {
+                    "id": "IS11614/04",
+                    "name_and_origin": "Leirubakka Sóllilja Dögg (IS)"
+                }
+            ]
+        },
+        {
+            "id": "IS22031/16",
+            "name_and_origin": "Gerplu Píla (IS)",
+            "parents": [
+                {
+                    "id": "IS09857/06",
+                    "name_and_origin": "Sporri (IS)"
+                },
+                {
+                    "id": "IS19157/14",
+                    "name_and_origin": "Gerplu Rjúpa (IS)"
+                }
+            ]
+        }
+    ]
+}

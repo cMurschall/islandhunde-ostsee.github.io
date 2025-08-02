@@ -3,49 +3,51 @@ title: "Willkommen bei Islandhunde an der Ostsee"
 date: 2025-06-29T00:00:00+01:00
 draft: false
 summary: "Islandhunde mit Herz – verantwortungsvolle Zucht an der Ostseeküste"
-layout: home
+
+
 ---
 
-Herzlich willkommen auf unserer Website!
+![Title](/images/titlepage.jpg)
 
-Wir sind eine kleine, liebevolle Islandhundezucht an der wunderschönen Ostsee. Unsere Hunde leben mit uns als vollwertige Familienmitglieder auf einem großzügigen Grundstück, umgeben von Natur, Wind und Wellen.
 
-🐾 **Islandhunde** sind fröhliche, intelligente und aktive Begleiter mit einem ganz besonderen Wesen. Wir legen großen Wert auf eine gesunde, wesensfeste Zucht nach den Richtlinien des VDH und der FCI.
+Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof – gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
+
+🐾 **Islandhunde** sind lebensfrohe, kluge und einfühlsame Begleiter mit einem einzigartigen Wesen. Unsere Zucht folgt den strengen Vorgaben von DCNH und FCI – mit einem klaren Fokus auf Gesundheit, Charakterstärke und Sozialverträglichkeit.
 
 ---
 
 ## Unsere Philosophie
 
-Wir züchten mit Herz und Verstand:
+Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 
-- 🐶 Familienanschluss statt Zwingerhaltung
-- 📋 Gesundheitsuntersuchungen nach höchsten Standards
-- 💬 Persönliche Betreuung unserer Welpenkäufer
-- 📚 Viel Wissen, Engagement und liebevolle Aufzucht
+- 🐶 Leben in der Familie statt Zwingerhaltung
+- 📋 Umfassende Gesundheitsuntersuchungen nach höchsten Standards
+- 💬 Persönliche und langfristige Betreuung unserer Welpenfamilien
+- 📚 Fachwissen, Erfahrung und ganz viel Herzblut in der Aufzucht
 
 ---
 
 ## Unsere Hunde
 
-Lerne unsere Zuchthündinnen und -rüden kennen – mit Stammbaum, Gesundheitsdaten und vielen Fotos:
+Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
 ---
 
 ## Wurfplanung & Welpen
 
-Wir informieren regelmäßig über geplante Würfe und freie Welpenplätze.
+Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Islandhund findest du hier:
 ➡️ [Zur Wurfplanung](/wurfplanung/)
 
 ---
 
 ## Kontakt
 
-Du interessierst dich für einen Islandhundwelpen oder möchtest uns kennenlernen?
+Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse oder unserer Zucht?
 ➡️ [Jetzt Kontakt aufnehmen](/kontakt/)
 
 ---
 
-Wir freuen uns auf dich!
-Herzlichst,
+Wir freuen uns darauf, dich kennenzulernen!
+Herzliche Grüße,
 **Familie Murschall**

@@ -5,41 +5,23 @@ draft: false
 summary: "Lerne unsere Islandhunde kennen"
 ---
 
-## Unsere Islandhunde
-
 Unsere Hunde sind mehr als Zuchttiere – sie sind Familienmitglieder, Begleiter, Seelentröster und Freunde. Wir stellen dir hier unsere Hündinnen und Rüden vor, mit all ihren liebenswerten Eigenheiten.
 
-Jeder Hund wird regelmäßig tierärztlich untersucht und ist auf Erbkrankheiten getestet. Gesundheit, Charakter und die artgerechte Haltung stehen bei uns an erster Stelle.
+Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und die artgerechte Haltung stehen bei uns an erster Stelle.
+
 
 ---
 
-### 🌸 **Sunna vom Ostseewind**
+### **Gerplu Magni**
 
-![Sunna](/images/sunna.jpg)
+![Fjola](/images/magni1.jpeg)
 
-- Geboren: 12. März 2020
-- Farbe: Falbfarben mit weißen Abzeichen
-- Wesen: Freundlich, verspielt, wachsam
-- Gesundheit: HD A, ED 0, PRA frei
-- Zuchtzulassung: VDH/F.C.I. seit 2022
-- Besonderheiten: Sunna liebt Wasser, Kinder – und ist eine hingebungsvolle Mutter.
+- **Name:** Gerplu Magni
+- **Geboren:** 02.02.2021
+- **Geschlecht:** Rüde
+- **Farbe:** Schwarz mit Weiß (svartur, strútóttur)
 
-➡️ [Mehr über Sunna](/zuchthunde/sunna/)
-
----
-
-### ❄️ **Fjola vom Nebelstein**
-
-![Fjola](/images/fjola.jpg)
-
-- Geboren: 5. Oktober 2021
-- Farbe: Wolfsgrau
-- Wesen: Intelligent, aufmerksam, verschmust
-- Gesundheit: HD A, Augen frei
-- Zuchtzulassung: beantragt (geplant für Herbst 2025)
-- Besonderheiten: Fjola begleitet uns bei Ausritten und liebt lange Spaziergänge am Strand.
-
-➡️ [Mehr über Fjola](/zuchthunde/fjola/)
+➡️ [Mehr über Magni](/zuchthunde/magni/)
 
 ---
 
@@ -47,7 +29,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht und ist auf Erbkrankheiten
 
 Wir züchten nach den Richtlinien des VDH/FCI mit besonderem Augenmerk auf:
 
-- Gesundheit (Hüften, Augen, genetische Tests)
+- Gesundheit (Hüften, Augen)
 - Wesen (freundlich, familientauglich, instinktsicher)
 - Schönheit (typvoll, robust, ursprünglicher Islandhund)
 
@@ -55,11 +37,8 @@ Unsere Hunde leben mit uns in Haus und Garten, wachsen mit Kindern, Katzen und P
 
 ---
 
-📸 Du willst noch mehr Bilder sehen?
-Schau in unsere [Galerie](/galerie/) oder folge uns auf Instagram: [@islandhunde_ostsee](https://instagram.com/islandhunde_ostsee)
+📸 Du willst noch mehr Bilder sehen? Folge uns auf Instagram: [@islandhunde_ostsee](https://instagram.com/islandhunde_ostsee)
 
 ---
 
-Wir freuen uns, dir unsere Hunde persönlich vorzustellen. 🐕
-
-**Familie Murschall**
+Wir freuen uns, dir unsere Hunde persönlich vorzustellen.

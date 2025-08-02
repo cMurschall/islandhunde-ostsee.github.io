@@ -1,5 +1,0 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Islandhunde Kjölavik'
-theme = "PaperMod"
-googleAnalytics = ""  # Optional: Vermeidet Fehler
