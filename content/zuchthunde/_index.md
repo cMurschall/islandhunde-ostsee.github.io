@@ -2,6 +2,8 @@
 title: "Unsere Zuchthunde"
 date: 2025-06-29
 draft: false
+type: _default
+layout: single
 breadcrumb: "Zuchthunde"
 summary: "Lerne unsere Islandhunde kennen"
 ---
@@ -15,7 +17,8 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### **Gerplu Magni**
 
-![Magni](/images/magni/magni07.jpeg)
+[![Magni](/images/magni/magni07.jpeg)](/zuchthunde/magni/)
+
 
 - **Name:** Gerplu Magni
 - **Geboren:** 02.02.2021
@@ -26,8 +29,9 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ---
 
+### Snjófells Snjó-Birta
 
-![Fjola](/images/birna/birna2.jpeg)
+[![Birna](/images/birna/birna2.jpeg)](/zuchthunde/snjobirta/)
 
 - **Name:** Snjófells Snjó-Birta (Rufname Birna)
 - **Geboren:** 10.04.2022
@@ -38,10 +42,19 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ---
 
+### Stjörnuljósa Unndís
+
+[![Birna](/images/unndis/unndis3.jpeg)](/zuchthunde/unndis/)
+
+- **Name:** Stjörnuljósa Unndís
+- **Geboren:** 12.03.2021
+- **Geschlecht:** Hündin
+- **Farbe:** Schwarz/weiß mit Blesse, Kragen, Socken
+
+➡️ [Mehr über Unndís](/zuchthunde/unndis/)
 
 
-
-
+---
 
 ## 🐾 Unsere Philosophie in der Zucht
 
@@ -55,7 +68,7 @@ Unsere Hunde leben mit uns in Haus und Garten, wachsen mit Kindern, Katzen und P
 
 ---
 
-📸 Du willst noch mehr Bilder sehen? Folge uns auf Instagram: [@islandhunde_ostsee](https://instagram.com/islandhunde_ostsee)
+📸 Du willst noch mehr Bilder sehen? Folge uns auf Instagram: {{< external-link url="https://instagram.com/islandhunde_ostsee" text="[@islandhunde_ostsee]" >}}
 
 ---
 

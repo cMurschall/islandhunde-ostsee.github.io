@@ -3,51 +3,47 @@
 <script src="/js/lightgallery.umd.js" defer></script>
 <script src="/js/lg-thumbnail.umd.js" defer></script>
 
-{{/* 1. Alle Bildformate aus .Page.Resources sammeln */}}
+{{/* 1. Page Resources */}}
 {{ $jpg := .Page.Resources.Match "**.jpg" }}
 {{ $jpeg := .Page.Resources.Match "**.jpeg" }}
 {{ $png := .Page.Resources.Match "**.png" }}
 {{ $bundleImages := $jpg | append $jpeg | append $png }}
 
-
-{{/* 2. Statische Bilder aus Params (falls vorhanden) */}}
+{{/* 2. Statische Bilder aus .Params.images */}}
 {{ $staticImages := .Page.Params.images | default slice }}
-{{ $staticResources := slice }}
+{{ $allImages := $bundleImages | append $staticImages }}
 
-
-
-{{ range $staticImages }}
-  {{ $res := resources.Get . }}
-  {{ if $res }}
-    {{ $staticResources = $staticResources | append $res }}
+{{ if gt (len $allImages) 0 }}
+  {{ $first := index $allImages 0 }}
+  {{ $firstUrl := "" }}
+  {{ if (in (printf "%T" $first) "resource") }}
+    {{ $firstUrl = $first.RelPermalink }}
   {{ else }}
-    {{/* Falls resources.Get fehlschlägt, als String durchreichen */}}
-    {{ $staticResources = $staticResources | append . }}
+    {{ $firstUrl = $first }}
   {{ end }}
-{{ end }}
 
-{{/* 3. Alle kombinieren */}}
-{{ $allImages := $bundleImages | append $staticResources }}
+  <div id="lightgallery" class="gallery-single">
+    <a href="{{ $firstUrl }}" data-lg-size="1400-933" class="has-overlay">
+      <div class="overlay-icon">➤ Galerie öffnen</div>
+      <img src="{{ $firstUrl }}" alt="" loading="lazy" />
+    </a>
 
-
-{{ $first := index $allImages 0 }}
-
-<div id="lightgallery" class="gallery-single">
-  <a href="{{ $first.RelPermalink }}" data-lg-size="1400-933" class="has-overlay">
-    <div class="overlay-icon">➤ Galerie öffnen</div>
-    <img src="{{ $first.RelPermalink }}" alt="" loading="lazy" />
-
-  </a>
-
-  <!-- restliche Bilder verstecken -->
-  {{ range $i, $img := $allImages }}
-    {{ if gt $i 0 }}
-      <a href="{{ $img.RelPermalink }}" data-lg-size="1400-933" style="display:none;">
-        <img src="{{ $img.RelPermalink }}" alt="" />
-      </a>
+    <!-- weitere Bilder -->
+    {{ range $i, $img := $allImages }}
+      {{ if gt $i 0 }}
+        {{ $url := "" }}
+        {{ if (in (printf "%T" $img) "resource") }}
+          {{ $url = $img.RelPermalink }}
+        {{ else }}
+          {{ $url = $img }}
+        {{ end }}
+        <a href="{{ $url }}" data-lg-size="1400-933" style="display:none;">
+          <img src="{{ $url }}" alt="" />
+        </a>
+      {{ end }}
     {{ end }}
-  {{ end }}
-</div>
+  </div>
+{{ end }}
 
 <script>
   window.addEventListener("DOMContentLoaded", function () {
@@ -67,17 +63,15 @@
 </script>
 
 <style>
-.gallery-single img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease;
-  cursor: pointer;
-}
-.gallery-single img:hover {
-  transform: scale(1.02);
-}
-
-
+  .gallery-single img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  .gallery-single img:hover {
+    transform: scale(1.02);
+  }
 </style>

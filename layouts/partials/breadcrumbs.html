@@ -15,10 +15,11 @@
         </a>
       {{ end }}
 
+
       {{ $parent = $parent.Parent }}
     {{ end }}
   {{ end }}
 
   <span> / </span>
-  <span aria-current="page">{{ with .Params.breadcrumb }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
+  <span class="current" aria-current="page">{{ with .Params.breadcrumb }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
 </nav>

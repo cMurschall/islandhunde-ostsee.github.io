@@ -2,6 +2,8 @@
 title: "Willkommen bei Islandhunde an der Ostsee"
 date: 2025-06-29T00:00:00+01:00
 draft: false
+type: _default
+layout: single
 summary: "Islandhunde mit Herzblut - verantwortungsvolle Zucht an der Ostseeküste"
 breadcrumb: "Start"
 
@@ -22,6 +24,7 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 
 - 🐶 Leben in der Familie statt Zwingerhaltung
 - 📋 Umfassende Gesundheitsuntersuchungen nach höchsten Standards
+- 🌿 Eine bewusste, liebevolle **Bellarme-Zucht**
 - 💬 Persönliche und langfristige Betreuung unserer Welpenfamilien
 - 📚 Fachwissen, Erfahrung und ganz viel Herzblut in der Aufzucht
 
@@ -47,7 +50,9 @@ Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse od
 
 📩 Schreib uns gern eine E-Mail an [**kontakt@islandhunde-ostsee.de**](mailto:kontakt@islandhunde-ostsee.de)
 
-📷 Oder sende uns eine Nachricht auf Instagram: [**@islandhunde_ostsee**](https://instagram.com/islandhunde_ostsee)
+
+
+📸 Du willst noch mehr Bilder sehen? Folge uns auf Instagram: {{< external-link url="https://instagram.com/islandhunde_ostsee" text="@islandhunde_ostsee" >}}
 
 Wir freuen uns auf deine Nachricht!
 

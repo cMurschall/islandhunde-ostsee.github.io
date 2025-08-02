@@ -35,7 +35,8 @@ const renderDogPedigreeChart = (containerId, dogData) => {
 
 
     const getOrigin = dog => {
-        return "is"; // 'is' ist der ISO 3166-1 alpha-2 Code für Island
+        const origin = dog.id.substring(0, 2).toLowerCase();
+        return origin ?? "is"; // Standardmäßig Island, falls kein Ursprung angegeben ist
     };
     // ----------------------
 

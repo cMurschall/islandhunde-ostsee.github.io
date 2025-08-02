@@ -1,0 +1,41 @@
+{
+  "id": "IS30479/21",
+  "name_and_origin": "Stjörnuljósa Unndís",
+  "isRoot": true,
+  "parents": [
+    {
+      "id": "IS19799/14",
+      "name_and_origin": "Kolsholts Spuni",
+      "hd": "A2",
+      "parents": [
+        {
+          "id": "IS13301/09",
+          "name_and_origin": "Stefsstells Vinur",
+          "hd": "C"
+        },
+        {
+          "id": "IS11944/08",
+          "name_and_origin": "Hnuks Dópa",
+          "hd": "C"
+        }
+      ]
+    },
+    {
+      "id": "IS21555/16",
+      "name_and_origin": "Stjörnuljósa Skrúna",
+      "hd": "B",
+      "parents": [
+        {
+          "id": "IS18554/12",
+          "name_and_origin": "C.I.B., ISCh Snæfríða Sómi",
+          "hd": "B"
+        },
+        {
+          "id": "IS13160/09",
+          "name_and_origin": "Árnastaða Skrumba",
+          "hd": "C"
+        }
+      ]
+    }
+  ]
+}

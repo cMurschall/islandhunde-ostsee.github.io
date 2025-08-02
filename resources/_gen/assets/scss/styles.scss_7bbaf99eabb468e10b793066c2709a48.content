@@ -5,31 +5,24 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 0.4em;
-  color: #333;
-}
+  color: #333; }
 
 .breadcrumbs a {
   text-decoration: none;
   color: #007acc;
-  transition: color 0.2s ease;
-}
+  transition: color 0.2s ease; }
 
 .breadcrumbs a:hover {
   color: #005999;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .breadcrumbs span.separator {
   color: #aaa;
-  user-select: none;
-}
+  user-select: none; }
 
 .breadcrumbs .current {
   font-weight: bold;
-  color: #000;
-}
+  color: #000; }
 
 .external-link {
-  font-weight: bold;
-
-}
+  font-weight: bold; }

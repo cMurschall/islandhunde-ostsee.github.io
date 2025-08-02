@@ -10,6 +10,8 @@ googleAnalytics: ""
 
 params:
   disableThemeToggle: true
+  showPostNavLinks: false
+  hideSummary: true
   socialIcons:
     - name: "Instagram"
       icon: "instagram"
