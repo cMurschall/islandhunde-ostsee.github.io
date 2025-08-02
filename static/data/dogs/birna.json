@@ -1,0 +1,41 @@
+{
+  "id": "IS33801/22",
+  "name_and_origin": "Snjófells Snjó-Birta",
+  "isRoot": true,
+  "parents": [
+    {
+      "id": "IS20890/15",
+      "name_and_origin": "Snjófells Vordagur",
+      "hd": "B",
+      "parents": [
+        {
+          "id": "IS13764/09",
+          "name_and_origin": "Snjófells Óðinn",
+          "hd": "B"
+        },
+        {
+          "id": "IS16077/11",
+          "name_and_origin": "Gerplu Ronja Nös",
+          "hd": "A"
+        }
+      ]
+    },
+    {
+      "id": "IS23820/17",
+      "name_and_origin": "Kolsholts Snærfríður",
+      "hd": "C",
+      "parents": [
+        {
+          "id": "IS21408/15",
+          "name_and_origin": "Kolsholts Kópar",
+          "hd": "C"
+        },
+        {
+          "id": "IS16023/11",
+          "name_and_origin": "Snjófells Sjöfn",
+          "hd": "C"
+        }
+      ]
+    }
+  ]
+}

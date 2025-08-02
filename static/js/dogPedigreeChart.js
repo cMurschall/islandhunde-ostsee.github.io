@@ -33,8 +33,7 @@ const renderDogPedigreeChart = (containerId, dogData) => {
     const flagheight = textSize * 1.28;
     const flagwidth = (flagheight * 3) / 4;
 
-    // --- ANPASSUNG HIER ---
-    // Die Funktion getOrigin wird nun statisch "is" für Island zurückgeben
+
     const getOrigin = dog => {
         return "is"; // 'is' ist der ISO 3166-1 alpha-2 Code für Island
     };
@@ -118,7 +117,7 @@ const renderDogPedigreeChart = (containerId, dogData) => {
         .attr("width", flagwidth)
         .attr("xlink:href", d => {
             // Hier wird immer die Island-Flagge verwendet
-            return `flags/4x3/${getOrigin(d.data)}.svg`;
+            return `https://raw.githubusercontent.com/lipis/flag-icons/refs/heads/main/flags/4x3/${getOrigin(d.data)}.svg`;
         });
 
     node
@@ -129,6 +128,15 @@ const renderDogPedigreeChart = (containerId, dogData) => {
         .attr("style", `font-size:${textSize}px`)
         .attr("class", "id")
         .text(d => (isRoot(d.data) ? "" : d.data.id));
+
+    node
+        .append("text")
+        .attr("dx", -(boxWidth / 2.3))
+        .attr("dy", flagheight * 0.8 + textSize * 1.2) // etwas unterhalb der ID
+        .attr("text-anchor", "start")
+        .attr("style", `font-size:${textSize * 0.9}px; fill: #555`) // etwas kleiner und dunkler
+        .attr("class", "hd")
+        .text(d => d.data.hd ? `HD: ${d.data.hd}` : "");
 };
 
 window.renderDogPedigreeChart = renderDogPedigreeChart;

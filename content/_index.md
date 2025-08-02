@@ -2,8 +2,8 @@
 title: "Willkommen bei Islandhunde an der Ostsee"
 date: 2025-06-29T00:00:00+01:00
 draft: false
-summary: "Islandhunde mit Herz – verantwortungsvolle Zucht an der Ostseeküste"
-
+summary: "Islandhunde mit Herzblut - verantwortungsvolle Zucht an der Ostseeküste"
+breadcrumb: "Start"
 
 ---
 
@@ -44,10 +44,10 @@ Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Isl
 ## Kontakt
 
 Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse oder unserer Zucht?
-➡️ [Jetzt Kontakt aufnehmen](/kontakt/)
 
----
+📩 Schreib uns gern eine E-Mail an [**kontakt@islandhunde-ostsee.de**](mailto:kontakt@islandhunde-ostsee.de)
 
-Wir freuen uns darauf, dich kennenzulernen!
-Herzliche Grüße,
-**Familie Murschall**
+📷 Oder sende uns eine Nachricht auf Instagram: [**@islandhunde_ostsee**](https://instagram.com/islandhunde_ostsee)
+
+Wir freuen uns auf deine Nachricht!
+

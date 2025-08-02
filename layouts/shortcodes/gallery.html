@@ -3,21 +3,47 @@
 <script src="/js/lightgallery.umd.js" defer></script>
 <script src="/js/lg-thumbnail.umd.js" defer></script>
 
-{{ $images := .Page.Resources.Match "**.jpeg" }}
-{{ $first := index $images 0 }}
+{{/* 1. Alle Bildformate aus .Page.Resources sammeln */}}
+{{ $jpg := .Page.Resources.Match "**.jpg" }}
+{{ $jpeg := .Page.Resources.Match "**.jpeg" }}
+{{ $png := .Page.Resources.Match "**.png" }}
+{{ $bundleImages := $jpg | append $jpeg | append $png }}
+
+
+{{/* 2. Statische Bilder aus Params (falls vorhanden) */}}
+{{ $staticImages := .Page.Params.images | default slice }}
+{{ $staticResources := slice }}
+
+
+
+{{ range $staticImages }}
+  {{ $res := resources.Get . }}
+  {{ if $res }}
+    {{ $staticResources = $staticResources | append $res }}
+  {{ else }}
+    {{/* Falls resources.Get fehlschlägt, als String durchreichen */}}
+    {{ $staticResources = $staticResources | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* 3. Alle kombinieren */}}
+{{ $allImages := $bundleImages | append $staticResources }}
+
+
+{{ $first := index $allImages 0 }}
 
 <div id="lightgallery" class="gallery-single">
   <a href="{{ $first.RelPermalink }}" data-lg-size="1400-933" class="has-overlay">
     <div class="overlay-icon">➤ Galerie öffnen</div>
-    <img src="{{ $first.RelPermalink }}" alt="{{ $first.Name }}" loading="lazy" />
+    <img src="{{ $first.RelPermalink }}" alt="" loading="lazy" />
 
   </a>
 
   <!-- restliche Bilder verstecken -->
-  {{ range $i, $img := $images }}
+  {{ range $i, $img := $allImages }}
     {{ if gt $i 0 }}
       <a href="{{ $img.RelPermalink }}" data-lg-size="1400-933" style="display:none;">
-        <img src="{{ $img.RelPermalink }}" alt="{{ $img.Name }}" />
+        <img src="{{ $img.RelPermalink }}" alt="" />
       </a>
     {{ end }}
   {{ end }}

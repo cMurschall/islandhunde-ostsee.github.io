@@ -13,7 +13,8 @@
         {{ . | markdownify }}
         {{- print " · "}}
     {{- end }}
-
+    <a href="{{ "impressum" | relURL }}">Impressum</a> ·
+    <a href="{{ "privacy" | relURL }}">Datenschutzerklärung</a>
 </footer>
 {{- end }}
 

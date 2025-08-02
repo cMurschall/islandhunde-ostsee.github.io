@@ -2,6 +2,7 @@
 title: "Unsere Zuchthunde"
 date: 2025-06-29
 draft: false
+breadcrumb: "Zuchthunde"
 summary: "Lerne unsere Islandhunde kennen"
 ---
 
@@ -14,7 +15,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### **Gerplu Magni**
 
-![Fjola](/images/magni1.jpeg)
+![Magni](/images/magni/magni07.jpeg)
 
 - **Name:** Gerplu Magni
 - **Geboren:** 02.02.2021
@@ -24,6 +25,23 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 ➡️ [Mehr über Magni](/zuchthunde/magni/)
 
 ---
+
+
+![Fjola](/images/birna/birna2.jpeg)
+
+- **Name:** Snjófells Snjó-Birta (Rufname Birna)
+- **Geboren:** 10.04.2022
+- **Geschlecht:** Hündin
+- **Farbe:** creme-weiß (leirhvít með hvítu)
+
+➡️ [Mehr über Snjó-Birta](/zuchthunde/snjobirta/)
+
+---
+
+
+
+
+
 
 ## 🐾 Unsere Philosophie in der Zucht
 

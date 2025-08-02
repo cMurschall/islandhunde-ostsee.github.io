@@ -4,3 +4,23 @@
 {{- /* Head custom content area end */ -}}
 {{ $pedigreeStyle := resources.Get "scss/pedigree.scss" | toCSS }}
 <link rel="stylesheet" href="{{ $pedigreeStyle.RelPermalink }}">
+
+
+<!-- Favicon für moderne Browser -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+
+<!-- Apple Touch Icon (für iOS Homescreen) -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Progressive Web App Icons -->
+<link rel="icon" type="image/png" sizes="192x192" href="/web-app-manifest-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/web-app-manifest-512x512.png">
+
+<!-- Optional: Theme color for mobile address bar -->
+<meta name="theme-color" content="#003897"> <!-- Blau der isländischen Flagge -->
+

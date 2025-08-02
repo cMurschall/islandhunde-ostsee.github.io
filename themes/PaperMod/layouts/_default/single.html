@@ -38,7 +38,10 @@
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- else }}
+    {{ partial "breadcrumbs.html" . }}
+    {{ .Content }}
+    {{ end }}
   </div>
   {{- end }}
 

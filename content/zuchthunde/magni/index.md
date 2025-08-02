@@ -1,9 +1,9 @@
 ---
 title: "Gerplu Magni"
-date: 2025-06-29
+date: 2025-08-02
 draft: false
 tags: ["Rüde", "Deckrüde", "Islandhund", "Zucht", "FCI", "Gerplu"]
-
+breadcrumb: "Magni"
 ---
 
 {{< gallery >}}

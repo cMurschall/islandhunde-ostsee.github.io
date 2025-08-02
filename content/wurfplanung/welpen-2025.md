@@ -10,7 +10,7 @@ tags: ["Wurfplanung", "Welpen", "2025"]
 Wir freuen uns sehr:
 Unsere Hunde **Magni** und **Birnna** wurden erfolgreich verpaart!
 
-Wenn alles klappt, erwarten wir die Welpen im Frühjahr 2025.
+Wenn alles klappt, erwarten wir die Welpen im Oktober 2025.
 Weitere Infos folgen hier auf der Seite – oder schreib uns gern direkt an, wenn du Interesse an einem Welpen hast.
 
 🐾

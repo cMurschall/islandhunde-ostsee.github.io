@@ -1,0 +1,24 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ "/" | relURL }}">Startseite</a>
+
+  {{ $parent := .Parent }}
+  {{ $seen := slice }}
+
+  {{ range seq 1 5 }}
+    {{ if and $parent (not (in $seen $parent.RelPermalink)) }}
+      {{ $seen = $seen | append $parent.RelPermalink }}
+
+      {{ if ne $parent.RelPermalink "/" }} <!-- überspringe die Startseite -->
+        <span> / </span>
+        <a href="{{ $parent.RelPermalink }}">
+          {{ with $parent.Params.breadcrumb }}{{ . }}{{ else }}{{ $parent.Title }}{{ end }}
+        </a>
+      {{ end }}
+
+      {{ $parent = $parent.Parent }}
+    {{ end }}
+  {{ end }}
+
+  <span> / </span>
+  <span aria-current="page">{{ with .Params.breadcrumb }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
+</nav>
