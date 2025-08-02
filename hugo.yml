@@ -6,7 +6,9 @@ theme:
 
 googleAnalytics: ""
 
-
+caches:
+  images:
+    dir: :cacheDir/images
 
 params:
   disableThemeToggle: true
