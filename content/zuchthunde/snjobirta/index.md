@@ -12,7 +12,7 @@ images:
 
 {{< gallery >}}
 
-Snjó-Birta wurde von uns in Birna wegen des schöneren Gangs umgetauft. Sie ist eine verträumte, sehr menschenbezogene Hündin, die auf charmante Weise ihren eigenen Kopf hat. Sie liebt Gesellschaft – nicht nur von ihrer Familie, sondern auch von allen, die ihr auf Campingplätzen begegnen. Mit einem feinen Gespür für interessante Menschen sucht sie sich gerne selbst aus, bei welcher Nachbarfamilie sie den Abend verbringt. Ihre freundliche, offene Art macht sie überall beliebt.
+Snjó-Birta wurde von uns in Birna wegen des schöneren Klangs umgetauft. Sie ist eine verträumte, sehr menschenbezogene Hündin, die auf charmante Weise ihren eigenen Kopf hat. Sie liebt Gesellschaft – nicht nur von ihrer Familie, sondern auch von allen, die ihr auf Campingplätzen begegnen. Mit einem feinen Gespür für interessante Menschen sucht sie sich gerne selbst aus, bei welcher Nachbarfamilie sie den Abend verbringt. Ihre freundliche, offene Art macht sie überall beliebt.
 
 Trotz ihrer sanften, ruhigen Ausstrahlung ist sie wachsam und zeigt ein gutes Gespür für Situationen. Ihre besondere Ausgeglichenheit und Kontaktfreude machen sie zu einer wunderbaren Begleiterin im Alltag und in der Natur.
 

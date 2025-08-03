@@ -1,0 +1,4 @@
+<div style="border: 3px solid {{ .Get "color" | default "#f39c12" }}; background-color: {{ .Get "bg" | default "#fff3cd" }}; padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem;">
+  <h2 style="margin-top: 0;">{{ .Get "title" }}</h2>
+  <div>{{ .Inner | markdownify }}</div>
+</div>

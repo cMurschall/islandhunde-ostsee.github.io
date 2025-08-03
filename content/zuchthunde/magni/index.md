@@ -39,7 +39,7 @@ Typisch für seinen freundlichen Charakter ist auch seine liebevolle Beziehung z
 
 ## Magni in der Zucht
 
-Magni steht geeigneten Hündinnen als Deckrüde zur Verfügung. Er stammt aus einer nachweislich gesunden und langlebigen Linie der Zuchtstätte **Gerplu** in Island. Seine A-Hüften, das vorzügliche Gangwerk und sein ausgeglichenes Wesen machen ihn zu einem wertvollen Beitrag zur Islandhund-Zucht.
+Magni steht geeigneten Hündinnen als Deckrüde zur Verfügung. Er stammt aus der gesunden und langlebigen Linie der Zuchtstätte **Gerplu** in Island. Seine A-Hüften, das vorzügliche Gangwerk und sein ausgeglichenes Wesen machen ihn zu einem wertvollen Beitrag zur Islandhund-Zucht.
 
 ## Stammbaum Magni
 

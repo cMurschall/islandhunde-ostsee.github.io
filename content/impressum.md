@@ -14,7 +14,7 @@ Deutschland
 
 **Kontakt:**
 Telefon: 016095149679
-E-Mail: christian.murschall@coherent.com
+E-Mail: islandhunde.ostsee@googlemail.com
 Website: www.islandhunde-ostsee.de
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
