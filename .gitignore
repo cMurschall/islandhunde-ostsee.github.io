@@ -1,1 +1,37 @@
-public/
+# Hugo build output
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Git submodules are tracked, but local changes should be ignored
+themes/*/exampleSite/
+themes/*/resources/
+themes/*/.git/
+
+# Logs and local env files
+*.log
+.env
+.env.*
+
+# Node modules (falls du JS-Tools nutzt)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Optional: Netlify/Vercel CLI
+.netlify/
+.vercel/
