@@ -30,10 +30,10 @@ Ein echter Islandhund – robust, clever und voller Persönlichkeit.
 - **Größe:** TBD
 - **Chipnummer:** 352098100100791
 - **Zuchtbuchnummer (Island):** IS30479/21
-- **Zuchtbuchnummer (Deutschland):** TBD
+- **Zuchtbuchnummer (Deutschland): VDH/DCNH IH 01988/25**
 - **HD:** TBD
 - **Augenuntersuchung (AU):** TBD
-- **Zuchtzulassung:** TBD
+- **Zuchtzulassung:** 24.07.2025
 - **Formwertbeurteilung:** TBD
 - **Wesen:** menschenbezogen, clever, sehr eigenständig, freundlich
 - **Typ:** feminin, kompakt
@@ -42,7 +42,7 @@ Ein echter Islandhund – robust, clever und voller Persönlichkeit.
 
 ## Herkunft
 
-- **Züchterin:** Margrét Bára Magnúsdóttir, Bärubær, 801 Selfossi (Island)
+- **Züchterin:** Margrét Bára Magnúsdóttir, Bárubær, 801 Selfossi (Island)
 - **Vater:** Kolsholts Spuni (IS19799/14), HD: A2
 - **Mutter:** Stjörnuljósa Skrúna (IS21555/16), HD: B
 
