@@ -6,6 +6,8 @@ theme:
 
 googleAnalytics: ""
 
+disableHugoGeneratorInject : true
+
 caches:
   images:
     dir: :cacheDir/images

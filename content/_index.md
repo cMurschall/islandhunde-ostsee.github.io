@@ -68,7 +68,7 @@ Wir züchten, weil wir die Hunde haben – und sie lieben.
 
 Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse oder unserer Zucht?
 
-📩 Schreib uns gern eine E-Mail an [**kontakt@islandhunde-ostsee.de**](mailto:islandhunde.ostsee@googlemail.com)
+📩 Schreib uns gern eine E-Mail an [**islandhunde.ostsee@googlemail.com**](mailto:islandhunde.ostsee@googlemail.com)
 
 
 
