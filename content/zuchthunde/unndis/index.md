@@ -30,7 +30,7 @@ Ein echter Islandhund – robust, clever und voller Persönlichkeit.
 - **Größe:** TBD
 - **Chipnummer:** 352098100100791
 - **Zuchtbuchnummer (Island):** IS30479/21
-- **Zuchtbuchnummer (Deutschland): VDH/DCNH IH 01988/25**
+- **Zuchtbuchnummer (Deutschland):** VDH/DCNH IH 01988/25
 - **HD:** TBD
 - **Augenuntersuchung (AU):** TBD
 - **Zuchtzulassung:** 24.07.2025
