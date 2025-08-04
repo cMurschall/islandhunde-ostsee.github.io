@@ -64,7 +64,7 @@ Wir züchten nach den Richtlinien des VDH/FCI mit besonderem Augenmerk auf:
 - Wesen (freundlich, familientauglich, instinktsicher)
 - Schönheit (typvoll, robust, ursprünglicher Islandhund)
 
-Unsere Hunde leben mit uns in Haus und Garten, wachsen mit Kindern, Katzen und Pferden auf und sind fest in unseren Alltag integriert.
+Unsere Hunde leben mit uns in Haus und Garten, wachsen mit Menschen, Katzen und Pferden auf und sind fest in unseren Alltag integriert.
 
 ---
 
