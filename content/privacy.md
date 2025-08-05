@@ -23,8 +23,8 @@ Ostpreußenweg 2
 24257 Hohenfelde
 Deutschland
 
-E-Mail: *[bitte einsetzen]*
-Telefon: *[bitte einsetzen]*
+E-Mail: islandhunde-ostsee@googlemail.com
+Telefon: 016095149679
 
 ---
 
