@@ -11,12 +11,12 @@ breadcrumb: " "
 
 ![Title](/images/titlepage.jpg)
 
-<!-- {{< alert title="Gute Neuigkeiten!" >}}
+{{< alert title="Gute Neuigkeiten!" >}}
 
 Wir erwarten **Welpen von [Magni](/zuchthunde/magni/) und [Birna](/zuchthunde/birna/)**!
 Voraussichtlicher Geburtstermin: *Anfang Oktober 2025* 🍼🐾
 
-{{< /alert >}} -->
+{{< /alert >}}
 
 
 Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof – gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
@@ -41,12 +41,12 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
----
+<!-- ---
 
 ## Wurfplanung & Welpen
 
 Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Islandhund findest du hier:
-➡️ [Zur Wurfplanung](/wurfplanung/)
+➡️ [Zur Wurfplanung](/wurfplanung/) -->
 
 ---
 
