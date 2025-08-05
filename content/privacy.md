@@ -50,9 +50,16 @@ Beim Besuch dieser Website werden von uns keine personenbezogenen Daten erhoben.
 
 ---
 
-### 5. Verzicht auf Tracking und Cookies
+### 5. Webanalyse mit Cloudflare Web Analytics
 
-Diese Website verwendet **keine** Tracking-Tools (wie z. B. Google Analytics) und **setzt keine Cookies** ein.
+Unsere Website nutzt Cloudflare Web Analytics, um anonyme statistische Auswertungen über die Nutzung der Website zu erstellen. Der Anbieter ist:
+
+Cloudflare, Inc.
+101 Townsend St, San Francisco, CA 94107, USA
+
+Cloudflare Web Analytics ist datenschutzfreundlich konzipiert, verwendet keine Cookies und speichert keine personenbezogenen Daten wie IP-Adressen. Die gesammelten Daten dienen ausschließlich statistischen Zwecken (z. B. Besucherzahlen, Seitenaufrufe, verwendete Endgeräte) und lassen keine Rückschlüsse auf einzelne Personen zu.
+
+Weitere Informationen erhalten Sie in der Datenschutzerklärung von Cloudflare.
 
 ---
 
