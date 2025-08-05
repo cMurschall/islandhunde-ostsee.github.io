@@ -1,0 +1,26 @@
+<div class="custom-quote">
+  <p>{{ .Inner | markdownify }}</p>
+</div>
+
+
+<style>
+.custom-quote {
+  position: relative;
+  background-color: #f9f9f9;
+  border-left: none; /* entfernt schwarze Linie vom Browser */
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  font-style: italic;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.custom-quote p {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+</style>

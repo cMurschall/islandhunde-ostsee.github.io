@@ -23,6 +23,11 @@ Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküst
 
 🐾 **Islandhunde** sind lebensfrohe, kluge und einfühlsame Begleiter mit einem einzigartigen Wesen. Unsere Zucht folgt den strengen Vorgaben von DCNH und FCI – mit einem klaren Fokus auf Gesundheit, Charakterstärke und Sozialverträglichkeit.
 
+
+{{< quote >}}
+Sturmfest und herzensgut - Islandhunde von der Ostseeküste
+{{< /quote >}}
+
 ---
 
 ## Unsere Philosophie
