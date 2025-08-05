@@ -16,6 +16,7 @@ params:
   disableThemeToggle: true
   showPostNavLinks: false
   hideSummary: true
+  description : "Islandhunde Zucht an der Ostsee – liebevoll und verantwortungsvoll nach FCI-Standard."
   socialIcons:
     - name: "Instagram"
       icon: "instagram"
