@@ -1,5 +1,5 @@
 ---
-title: "Willkommen bei Islandhunde an der Ostsee"
+title: "Willkommen auf Kjölavík, der Islandhundezucht an der Ostsee"
 date: 2025-06-29T00:00:00+01:00
 draft: false
 type: _default
@@ -19,7 +19,7 @@ Voraussichtlicher Geburtstermin: *Anfang Oktober 2025* 🍼🐾
 {{< /alert >}}
 
 
-Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof – gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
+Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof Kjölavík – gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
 
 🐾 **Islandhunde** sind lebensfrohe, kluge und einfühlsame Begleiter mit einem einzigartigen Wesen. Unsere Zucht folgt den strengen Vorgaben von DCNH und FCI – mit einem klaren Fokus auf Gesundheit, Charakterstärke und Sozialverträglichkeit.
 

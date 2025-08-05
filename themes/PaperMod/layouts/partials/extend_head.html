@@ -1,6 +1,8 @@
 {{- /* Head custom content area start */ -}}
-{{- /*     Insert any custom code (web-analytics, resources, etc.) - it will appear in the <head></head> section of every page. */ -}}
-{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* Insert any custom code (web-analytics, resources, etc.) - it will appear in the
+
+<head></head> section of every page. */ -}}
+{{- /* Can be overwritten by partial with the same name in the global layouts. */ -}}
 {{- /* Head custom content area end */ -}}
 {{ $pedigreeStyle := resources.Get "scss/pedigree.scss" | toCSS }}
 <link rel="stylesheet" href="{{ $pedigreeStyle.RelPermalink }}">
@@ -24,3 +26,28 @@
 <!-- Optional: Theme color for mobile address bar -->
 <meta name="theme-color" content="#003897"> <!-- Blau der isländischen Flagge -->
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+ "@type": "Breeder",
+  "name": "Kjölavík - Islandhunde Zucht an der Ostsee",
+  "url": "https://islandhunde-ostsee.de",
+  "logo": "https://islandhunde-ostsee.de/images/allThree.jpg",
+  "sameAs": [
+    "https://instagram.com/islandhunde_ostsee"
+  ],
+  "description": "Familiäre Islandhunde Zucht an der Ostseeküste - liebevolle Aufzucht nach DCNH- und FCI-Standards",
+"address": {
+  "@type": "PostalAddress",
+  "streetAddress": "Ostpreußenweg 2",
+  "postalCode": "24257",
+  "addressLocality": "Hohenfelde",
+  "addressCountry": "DE"
+},
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "islandhunde.ostsee@googlemail.com",
+    "contactType": "customer support"
+  }
+}
+</script>
