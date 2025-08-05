@@ -10,7 +10,7 @@ breadcrumb: " "
 ---
 
 
-![Un pour tous, tous pour un](/images/titlepage.jpg)
+![Un pour tous, tous pour un](/images/unsere-drei-islandhunde.webp)
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
