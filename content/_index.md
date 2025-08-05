@@ -41,12 +41,12 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
-<!-- ---
+---
 
 ## Wurfplanung & Welpen
 
 Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Islandhund findest du hier:
-➡️ [Zur Wurfplanung](/wurfplanung/) -->
+➡️ [Zur Wurfplanung](/wurfplanung/)
 
 ---
 
