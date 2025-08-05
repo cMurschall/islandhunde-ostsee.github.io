@@ -1,5 +1,5 @@
 ---
-title: "Islandhunde Zucht an der Ostsee – Kjölavík"
+title: "Kjölavík - Islandhunde Zucht an der Ostsee"
 date: 2025-06-29T00:00:00+01:00
 draft: false
 type: _default
@@ -14,7 +14,7 @@ breadcrumb: " "
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
-Wir erwarten **Welpen** von **[Magni](/zuchthunde/magni/)** und **[Birna](/zuchthunde/birna/)**!
+Wir erwarten **Welpen** von **[Magni](/zuchthunde/magni/)** und **[Birna](/zuchthunde/birna/)**! \
 Voraussichtlicher Geburtstermin: *Anfang Oktober 2025* 🍼🐾
 
 {{< /alert >}}
@@ -26,7 +26,7 @@ Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküst
 
 
 {{< quote >}}
-Sturmfest und herzensgut - Islandhunde von der Ostseeküste
+Sturmerprobt und herzensgut - Islandhunde von der Ostseeküste
 {{< /quote >}}
 
 ---
