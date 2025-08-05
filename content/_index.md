@@ -9,7 +9,7 @@ breadcrumb: " "
 
 ---
 
-![Title](/images/titlepage.jpg)
+![Un pour tous, tous pour un](/images/titlepage.jpg)
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
