@@ -1,13 +1,14 @@
 ---
-title: "Willkommen auf Kjölavík, der Islandhundezucht an der Ostsee"
+title: "Islandhunde Zucht an der Ostsee – Kjölavík"
 date: 2025-06-29T00:00:00+01:00
 draft: false
 type: _default
 layout: single
-summary: "Islandhunde mit Herzblut - verantwortungsvolle Zucht an der Ostseeküste"
+summary: "Islandhunde Zucht mit Herzblut an der Ostsee – Familienaufzucht mit Fokus auf Gesundheit und Charakter."
 breadcrumb: " "
 
 ---
+
 
 ![Un pour tous, tous pour un](/images/titlepage.jpg)
 
