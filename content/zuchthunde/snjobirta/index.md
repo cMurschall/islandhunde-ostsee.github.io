@@ -5,9 +5,9 @@ draft: false
 tags: ["Hündin", "Islandhund", "Zucht", "FCI", "Snjófells"]
 breadcrumb: "Birna"
 images:
-  - /images/birna/birna2.jpeg
-  - /images/birna/birna1.jpeg
-  - /images/birna/birna3.jpeg
+  - /images/birna/birna2.webp
+  - /images/birna/birna1.webp
+  - /images/birna/birna3.webp
 ---
 
 {{< gallery >}}

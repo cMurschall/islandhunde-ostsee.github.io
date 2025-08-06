@@ -88,6 +88,11 @@ jobs:
         with:
           path: ./public
 
+      - name: Install Pillow
+        run: pip install pillow
+      - name: Convert images to WebP
+        run: python3 scripts/convert-to-webp.py
+
   # Deployment job
   deploy:
     environment:

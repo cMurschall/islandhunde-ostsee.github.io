@@ -17,7 +17,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### **Gerplu Magni**
 
-[![Magni](/images/magni/magni07.jpeg)](/zuchthunde/magni/)
+[![Magni](/images/magni/magni07.webp)](/zuchthunde/magni/)
 
 
 - **Name:** Gerplu Magni
@@ -31,7 +31,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### Snjófells Snjó-Birta
 
-[![Birna](/images/birna/birna2.jpeg)](/zuchthunde/snjobirta/)
+[![Birna](/images/birna/birna2.webp)](/zuchthunde/snjobirta/)
 
 - **Name:** Snjófells Snjó-Birta (Rufname Birna)
 - **Geboren:** 10.04.2022
@@ -44,7 +44,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### Stjörnuljósa Unndís
 
-[![Birna](/images/unndis/unndis3.jpeg)](/zuchthunde/unndis/)
+[![Birna](/images/unndis/unndis3.webp)](/zuchthunde/unndis/)
 
 - **Name:** Stjörnuljósa Unndís
 - **Geboren:** 12.03.2021

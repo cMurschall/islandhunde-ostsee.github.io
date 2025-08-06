@@ -35,3 +35,6 @@ yarn.lock
 # Optional: Netlify/Vercel CLI
 .netlify/
 .vercel/
+
+
+.venv/
