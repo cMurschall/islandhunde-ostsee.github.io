@@ -10,7 +10,12 @@ breadcrumb: " "
 ---
 
 
-![Un pour tous, tous pour un](/images/unsere-drei-islandhunde.webp)
+<!-- ![Un pour tous, tous pour un](/images/unsere-drei-islandhunde.webp) -->
+{{< figure src="/images/unsere-drei-islandhunde.webp"
+   alt="Drei Islandhunde posieren im Wald. Zwei schwarz-weiße Islandhunde und ein weißer Islandhund stehen zwischen Felsen und Gras."
+   caption="Un pour tous, tous pour un." >}}
+
+
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
