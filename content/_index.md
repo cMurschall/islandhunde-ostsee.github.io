@@ -19,7 +19,7 @@ breadcrumb: " "
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
-Wir erwarten **Welpen** von **[Magni](/zuchthunde/magni/)** und **[Birna](/zuchthunde/birna/)**! \
+Wir erwarten **Welpen** von **[Magni](/zuchthunde/magni/)** und **[Birna](/zuchthunde/snjobirta/)**! \
 Voraussichtlicher Geburtstermin: *Anfang Oktober 2025* 🍼🐾
 
 {{< /alert >}}
