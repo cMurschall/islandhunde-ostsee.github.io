@@ -4,6 +4,116 @@ date: 2025-08-02
 draft: false
 tags: ["Rüde", "Deckrüde", "Islandhund", "Zucht", "FCI", "Gerplu"]
 breadcrumb: "Magni"
+
+gallery:
+- src: /images/magni/islandhund-am-meer-kuehlungsborn.jpeg
+  alt: Ein schwarz-weißer Islandhund sitzt im grünen Gras an einer Steilküste. Im
+    Hintergrund erstreckt sich das Meer.
+  caption: Küstenwind und grünes Gras -  ein perfekter Nachmittag für einen Spaziergang.
+  width: 1536
+  height: 2048
+- src: /images/magni/islandhund-am-meer.jpeg
+  alt: Ein schwarz-weißer Islandhund steht auf einem Felsen an der Küste und blickt
+    aufs Meer.
+  caption: Küstenabenteuer mit einem unserer Isländer.
+  width: 1600
+  height: 1200
+- src: /images/magni/islandhund-auf-bank-im-garten.jpeg
+  alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einer weißen Gartenbank.
+    Im Hintergrund ist ein Traktor und der Abendhimmel zu sehen.
+  caption: Feierabend auf der Gartenbank.
+  width: 2048
+  height: 1536
+- src: /images/magni/islandhund-auf-gruenem-stuhl.jpeg
+  alt: Ein schwarz-weißer Islandhund-Welpe liegt zusammengerollt auf einem hellgrünen
+    Stuhl und schaut direkt in die Kamera. Im Hintergrund hängen verschiedene Pferdeutensilien.
+  caption: Gemütlicher Nachmittag auf dem Lieblingsstuhl.
+  width: 1536
+  height: 2048
+# - src: /images/magni/islandhund-auf-stuhl.jpeg
+#   alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einem grünen Stuhl
+#     und schaut direkt in die Kamera.
+#   caption: Gemütlicher Nachmittag auf dem Küchenstuhl.
+#   width: 1536
+#   height: 2048
+- src: /images/magni/islandhund-badewanne-sommer-kuehlung.jpg
+  alt: Ein schwarz-weißer Islandhund kühlt sich in einer mit Wasser gefüllten Badewanne
+    ab. Die Badewanne steht im Freien auf einer Wiese, im Hintergrund sind Bäume und
+    ein Zaun zu sehen. Ein gelber Schlauch führt in die Wanne.
+  caption: Sommerfrische auf Isländisch.
+  width: 1024
+  height: 768
+- src: /images/magni/islandhund-entspannt-auf-steinmauer.jpeg
+  alt: Ein schwarz-weißer Islandhund liegt entspannt auf einer niedrigen Steinmauer
+    und blickt in die Ferne. Im Hintergrund ist ein blauer Himmel mit leichten Wolken
+    und ein Teil eines Dorfes zu sehen.
+  caption: Sonnenbad auf der Steinmauer.
+  width: 2048
+  height: 1536
+- src: /images/magni/islandhund-im-schnee.jpeg
+  alt: Ein schwarz-weißer Islandhund läuft spielerisch durch ein schneebedecktes Feld.
+    Im Hintergrund sind Bäume, ein Zaun und ein Schuppen zu sehen.
+  caption: Winterfreuden auf dem Hof.
+  width: 1600
+  height: 1200
+- src: /images/magni/islandhund-im-stall-mit-zaumzeug-und-stiefeln.jpeg
+  alt: Ein Islandhund liegt entspannt auf dem Boden eines Stalls, umgeben von Reitzubehör
+    wie Zaumzeug und Stiefeln. Der schwarz-weiße Hund schaut in die Kamera und leckt
+    sich über die Schnauze.
+  caption: Feierabend im Sattelraum.
+  width: 1536
+  height: 2048
+- src: /images/magni/islandhund-magni-ovalbahn.jpeg
+  alt: Ein schwarz-weisser Islandhund liegt entspannt auf einem Holzsteg und blickt
+    aufmerksam in die Ferne. Ein zweiter Islandhund ist im Hintergrund unscharf zu
+    sehen.
+  caption: Entspannter Nachmittag auf der Holzterrasse.
+  width: 1600
+  height: 1067
+- src: /images/magni/islandhund-schwarz-weiss-auf-wiese.jpeg
+  alt: Ein schwarz-weißer Islandhund läuft über eine grüne Wiese mit vereinzelten
+    weißen Blüten.
+  caption: Neugierig erkundet der junge Islandhund die grüne Wiese.
+  width: 1600
+  height: 1067
+- src: /images/magni/islandhund-schwarz-weiss-laeuft.jpeg
+  alt: Ein schwarz-weisser Islandhund läuft über einen sandigen Boden. Der Hund hat
+    eine buschige Rute und spitze Ohren. Er schaut direkt in die Kamera.
+  caption: Neugieriger Blick und buschige Rute – so erkundet unser junger Islandhund
+    die Welt.
+  width: 827
+  height: 1600
+- src: /images/magni/islandhund-schwarz-weiss-liegend.jpg
+  alt: Ein schwarz-weisser Islandhund liegt entspannt auf einem sandigen Untergrund
+    und schaut direkt in die Kamera.
+  caption: Entspannter Nachmittag auf dem Hof.
+  width: 3888
+  height: 2592
+- src: /images/magni/islandhund-schwarz-weiss-stehend.jpeg
+  alt: Ein schwarz-weißer Islandhund steht auf einem sandigen Untergrund und schaut
+    aufmerksam zur Seite.
+  caption: Aufmerksam beobachtet unser junger Islandhund die Umgebung.
+  width: 1600
+  height: 1066
+- src: /images/magni/islandhund-trifft-islandpferd.jpeg
+  alt: Ein schwarz-weißer Islandhund unserer Zucht begegnet neugierig einem braunen
+    Pferd auf einem Hof.
+  caption: Neugierige Begegnung im Abendlicht.
+  width: 1024
+  height: 768
+- src: /images/magni/islandhund-welpe-auf-stuhl.jpeg
+  alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einem grünen Stuhl
+    und schaut direkt in die Kamera.
+  caption: Gemütlicher Nachmittag auf dem Küchenstuhl.
+  width: 1200
+  height: 1600
+- src: /images/magni/islandhund-welpe-auf-tisch.jpeg
+  alt: Ein schwarz-weißer Islandhund-Welpe steht auf einem kleinen weißen Tisch in
+    einem Flur. Der Welpe schaut aufmerksam in die Kamera.
+  caption: Neugieriger Blick vom Tischchen im Flur.
+  width: 1536
+  height: 2048
+
 ---
 
 {{< gallery >}}

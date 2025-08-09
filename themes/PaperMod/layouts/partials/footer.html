@@ -140,4 +140,6 @@
 
 {{- end }}
 
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
 <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1594057ba3b0426ea2f57b62b74d4e21"}'></script>
+{{- end }}

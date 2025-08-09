@@ -1,78 +1,163 @@
-<link rel="stylesheet" href="/css/lightgallery-bundle.min.css" />
-<link rel="stylesheet" href="/css/lg-thumbnail.css" />
-<script src="/js/lightgallery.umd.js" defer></script>
-<script src="/js/lg-thumbnail.umd.js" defer></script>
+{{ $slides := .Page.Params.gallery | default slice }}
+{{ $visibleSlides := first 5 $slides }}
+{{ if gt (len $slides) 0 }}
+<link rel="stylesheet" href="/css/photoswipe.css" />
 
-{{/* 1. Page Resources */}}
-{{ $jpg := .Page.Resources.Match "**.jpg" }}
-{{ $jpeg := .Page.Resources.Match "**.jpeg" }}
-{{ $png := .Page.Resources.Match "**.png" }}
-{{ $webp := .Page.Resources.Match "**.webp" }}
-{{ $bundleImages := $jpg | append $jpeg | append $png | append $webp }}
-
-{{/* 2. Statische Bilder aus .Params.images */}}
-{{ $staticImages := .Page.Params.images | default slice }}
-{{ $allImages := $bundleImages | append $staticImages }}
-
-{{ if gt (len $allImages) 0 }}
-  {{ $first := index $allImages 0 }}
-  {{ $firstUrl := "" }}
-  {{ if (in (printf "%T" $first) "resource") }}
-    {{ $firstUrl = $first.RelPermalink }}
-  {{ else }}
-    {{ $firstUrl = $first }}
-  {{ end }}
-
-  <div id="lightgallery" class="gallery-single">
-    <a href="{{ $firstUrl }}" data-lg-size="1400-933" class="has-overlay">
-      <div class="overlay-icon">➤ Galerie öffnen</div>
-      <img src="{{ $firstUrl }}" alt="" loading="lazy" />
+<div class="image-gallery" id="gallery-{{ .Page.File.UniqueID }}">
+  {{ range $index, $slide := $visibleSlides }}
+  <figure class="image-gallery-item">
+    <a href="{{ .src }}" data-pswp-width="{{ .width }}" data-pswp-height="{{ .height }}" data-index="{{ $index }}"
+      data-caption="{{ .caption | html }}">
+      <img src="{{ .src }}" alt="{{ .alt | default "" }}" loading="lazy" />
     </a>
-
-    <!-- weitere Bilder -->
-    {{ range $i, $img := $allImages }}
-      {{ if gt $i 0 }}
-        {{ $url := "" }}
-        {{ if (in (printf "%T" $img) "resource") }}
-          {{ $url = $img.RelPermalink }}
-        {{ else }}
-          {{ $url = $img }}
-        {{ end }}
-        <a href="{{ $url }}" data-lg-size="1400-933" style="display:none;">
-          <img src="{{ $url }}" alt="" />
-        </a>
-      {{ end }}
+    {{ if .caption }}
+    <figcaption>{{ .caption | safeHTML }}</figcaption>
     {{ end }}
-  </div>
-{{ end }}
+  </figure>
+  {{ end }}
+</div>
 
-<script>
-  window.addEventListener("DOMContentLoaded", function () {
-    if (window.lightGallery) {
-      lightGallery(document.getElementById("lightgallery"), {
-        selector: "a",
-        speed: 300,
-        download: false,
-        plugins: [lgThumbnail],
-        thumbnail: true,
-        loop: true,
-        controls: true,
-        counter: true,
+
+<script type="module">
+import PhotoSwipe from '/js/photoswipe.esm.js';
+
+const galleryData = JSON.parse({{ $slides | jsonify }});
+
+document.querySelectorAll(`#gallery-{{ .Page.File.UniqueID }} a`).forEach((el, index) => {
+  el.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    const pswp = new PhotoSwipe({
+      dataSource: galleryData.map((img) => ({
+        src: img.src,
+        width: img.width,
+        height: img.height,
+        alt: img.alt,
+        caption: img.caption
+      })),
+      index: index,
+      pswpModule: () => import('/js/photoswipe.esm.js'),
+      paddingFn: () => ({
+        top: 40,
+        bottom: 80, // Platz für caption
+        left: 30,
+        right: 30
+      })
+    });
+
+    // Custom Caption registrieren
+    pswp.on('uiRegister', function () {
+      pswp.ui.registerElement({
+        name: 'custom-caption',
+        order: 9,
+        isButton: false,
+        appendTo: 'root',
+        html: '',
+        onInit: (el, pswpInstance) => {
+          pswpInstance.on('change', () => {
+            const caption = pswpInstance.currSlide.data.caption || '';
+            el.innerHTML = caption;
+          });
+        }
       });
-    }
+    });
+
+    pswp.init();
   });
+});
+
+
 </script>
 
 <style>
-  .gallery-single img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease;
-    cursor: pointer;
+  .image-gallery {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 0.5fr 0.5fr;
+    position: relative;
+    width: 100%;
   }
-  .gallery-single img:hover {
-    transform: scale(1.02);
+
+  .image-gallery .image-gallery-item {
+    position: relative;
+  }
+
+  figure.image-gallery-item {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-gallery .image-gallery-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+
+
+  .image-gallery .image-gallery-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image-gallery .image-gallery-item:first-child {
+    grid-row: span 2;
+  }
+
+  figure.image-gallery-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-gallery-item figcaption {
+    font-size: 0.9rem;
+    color: #444;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+
+  .pswp__img {
+    cursor: pointer !important;
+  }
+
+  .pswp__custom-caption {
+    background: #fff;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.95rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .image-gallery-item figcaption {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .image-gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .image-gallery {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
+{{ end }}
