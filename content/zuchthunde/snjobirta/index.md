@@ -23,7 +23,7 @@ gallery:
   caption: Küstenwind und wuscheliges Fell.
   width: 2048
   height: 1536
-- src: /images/birna/weisser-islandhund-holzstapel.jpg
+- src: /images/birna/weisser-islandhund-holzstapel.webp
   alt: Ein weißer Islandhund-Welpe liegt entspannt auf einem Stapel Feuerholz. Der
     Welpe hat eine Leine an und ruht seinen Kopf auf dem Holz. Im Vordergrund sind
     gestapelte Kunststoffkisten zu sehen.
