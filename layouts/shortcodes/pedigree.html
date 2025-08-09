@@ -1,3 +1,6 @@
+{{/* Set a scratch variable to indicate that the pedigree chart is used */}}
+{{ .Page.Scratch.Set "usesPedigreeChart" true }}
+
 <div id="{{ .Get "id" }}"></div>
 <script>
   fetch("/data/dogs/{{ .Get "datafile" }}.json")
