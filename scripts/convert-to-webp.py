@@ -7,6 +7,7 @@ from pathlib import Path
 target_dir = Path("public")
 quality = 80
 valid_extensions = (".jpg", ".jpeg", ".png")
+sizes = [320, 640, 960, 1280]  # gewünschte Breiten
 
 print(f"🔍 Searching for images in: {target_dir.resolve()}")
 
@@ -35,3 +36,28 @@ else:
                 print(f"✅ Converted: {img_path} → {webp_path}")
         except Exception as e:
             print(f"❌ Error processing {img_path}: {e}")
+
+        # Resized WebP erstellen
+        for size in sizes:
+            webp_resized = img_path.with_name(f"{img_path.stem}-{size}w.webp")
+            if webp_resized.exists():
+                print(f"⚠️  Skipping (already exists): {webp_resized}")
+                continue
+
+            try:
+                with Image.open(img_path) as img:
+                    width_percent = size / float(img.width)
+                    height = int((float(img.height) * float(width_percent)))
+                    img_resized = img.resize((size, height), Image.LANCZOS)
+                    img_resized.save(webp_resized, "webp", quality=quality)
+                    print(f"✅ Created resized WebP: {webp_resized}")
+            except Exception as e:
+                print(f"❌ Error processing {img_path}: {e}")
+
+        # delete original file if it was converted
+        if img_path.exists():
+            try:
+                img_path.unlink()
+                print(f"🗑️  Deleted original file: {img_path}")
+            except Exception as e:
+                print(f"❌ Error deleting {img_path}: {e}")

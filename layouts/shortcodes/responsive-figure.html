@@ -1,0 +1,43 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default (.Get "caption") | plainify }}
+{{ $caption := .Get "caption" }}
+{{ $class := .Get "class" }}
+{{ $align := .Get "align" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $lazy := .Get "lazy" | default "true" }}
+
+
+{{ $baseName := (path.Base $src) | replaceRE "\\.[^.]+$" "" }}
+{{ $dir := (path.Dir $src) }}
+
+{{ $sizes := slice 320 640 960 1280 }}
+{{ $srcset := slice }}
+
+{{ range $sizes }}
+  {{ $resized := printf "%s/%s-%dw.webp" $dir $baseName . }}
+  {{ $srcset = $srcset | append (printf "%s %dw" $resized .) }}
+{{ end }}
+
+<figure{{ if or $class (eq $align "center") }} class="
+           {{- if eq $align "center" }}align-center {{ end }}
+           {{- with $class }}{{ . }}{{- end }}"
+{{- end -}}>
+    <picture>
+      <source type="image/webp"
+              srcset="{{ delimit $srcset ", " }}"
+              sizes="(max-width: 768px) 100vw, 640px">
+<img
+    {{ if eq $lazy "true" }} loading="lazy"{{ end }}
+     src="{{ $dir }}/{{ $baseName }}-640w.webp"
+     alt="{{ $alt }}"
+     style="width:100%; height:auto;"
+     {{ with $width }} width="{{ . }}"{{ end }}
+     {{ with $height }} height="{{ . }}"{{ end }} />
+    </picture>
+    {{- if or $caption (.Get "attr") }}
+        <figcaption>
+            {{ if $caption }}<p>{{ $caption | markdownify }}</p>{{ end }}
+        </figcaption>
+    {{- end }}
+</figure>
