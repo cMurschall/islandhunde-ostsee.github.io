@@ -17,12 +17,6 @@ gallery:
   caption: Nach dem Ausflug in den Garten erstmal eine Ruhepause.
   width: 1536
   height: 2048
-- src: /images/birna/weisser-islandhund-am-meer.webp
-  alt: Ein weißer Islandhund sitzt auf einem Felsen und blickt auf das blaue Meer
-    und die dahinter liegenden Hügel.
-  caption: Küstenwind und Sonnenschein.
-  width: 2048
-  height: 1536
 - src: /images/birna/weisser-islandhund-am-strand.webp
   alt: Ein weißer Islandhund-Welpe sitzt im Gras auf einer Klippe mit Blick auf einen
     Strand und das Meer.
