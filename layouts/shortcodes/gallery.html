@@ -73,7 +73,7 @@ document.querySelectorAll(`#gallery-{{ .Page.File.UniqueID }} a`).forEach((el, i
   .image-gallery {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 0.5fr 0.5fr;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     position: relative;
     width: 100%;
   }
@@ -156,7 +156,7 @@ document.querySelectorAll(`#gallery-{{ .Page.File.UniqueID }} a`).forEach((el, i
 
   @media (max-width: 480px) {
     .image-gallery {
-      grid-template-columns: 1fr;
+     grid-template-columns: 1fr 1fr;
     }
   }
 </style>
