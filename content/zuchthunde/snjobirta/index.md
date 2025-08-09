@@ -4,6 +4,9 @@ date: 2025-08-02
 draft: false
 tags: ["Hündin", "Islandhund", "Zucht", "FCI", "Snjófells"]
 breadcrumb: "Birna"
+description: "Snjó-Birta ist eine verträumte, freundliche Islandhündin mit ausgeglichenem Wesen, vorzüglichem Formwert und A-Hüften. Sie stammt aus der isländischen Zuchtstätte Snjófells und lebt gern naturnah und menschenbezogen."
+
+
 gallery:
 - src: /images/birna/islandhund-auf-palette.webp
   alt: Ein weißer Islandhund-Welpe namens Birna sitzt auf einer Holzpalette. Der Welpe

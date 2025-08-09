@@ -55,10 +55,10 @@ else:
                 print(f"❌ Error processing {img_path}: {e}")
 
         # delete original file if it was converted
-        excluded_images = ["favicon", "icon", "logo", "thumbnail", "manifest"]
-        if img_path.exists() and not any(excluded in img_path.name for excluded in excluded_images):
-            try:
-                img_path.unlink()
-                print(f"🗑️  Deleted original file: {img_path}")
-            except Exception as e:
-                print(f"❌ Error deleting {img_path}: {e}")
+        # excluded_images = ["favicon", "icon", "logo", "thumbnail", "manifest"]
+        # if img_path.exists() and not any(excluded in img_path.name for excluded in excluded_images):
+        #     try:
+        #         img_path.unlink()
+        #         print(f"🗑️  Deleted original file: {img_path}")
+        #     except Exception as e:
+        #         print(f"❌ Error deleting {img_path}: {e}")

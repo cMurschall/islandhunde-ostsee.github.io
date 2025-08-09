@@ -29,3 +29,6 @@ params:
     customCSS:
       - "css/style.css"
     favicon: "favicon.svg"
+
+  images:
+  - /images/gruppen/drei-islandislandhunde-schwarz-weiss-veranda.jpeg

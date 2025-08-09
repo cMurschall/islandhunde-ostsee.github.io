@@ -4,6 +4,10 @@ date: 2025-08-02
 draft: false
 tags: ["Hündin", "Islandhund", "Zucht", "FCI", "Stjörnuljósa"]
 breadcrumb: "Unndís"
+description: "Unndís ist eine clevere, menschenbezogene Islandhündin voller Energie, Persönlichkeit und Entdeckergeist. Ihre offene Art und ihre Kreativität machen sie zu einer besonderen Begleiterin in Alltag und Zucht."
+
+
+
 gallery:
 - src: /images/unndis/border-collie-am-strand.webp
   alt: Ein schwarz-weißer Islandhund sitzt auf einer grasbewachsenen Klippe mit Blick

@@ -4,6 +4,8 @@ date: 2025-08-02
 draft: false
 tags: ["Rüde", "Deckrüde", "Islandhund", "Zucht", "FCI", "Gerplu"]
 breadcrumb: "Magni"
+description: "Magni ist ein freundlicher, neugieriger Islandhund-Rüde mit A-Hüften, vorzüglichem Gangwerk und liebevollem Wesen. Er steht als Deckrüde zur Verfügung und stammt aus der bewährten Gerplu-Linie in Island."
+
 
 gallery:
 - src: /images/magni/islandhund-am-meer-kuehlungsborn.webp
