@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://islandhunde-ostsee.de
 languageCode: en-us
 title: Islandhunde Kjölavik
 theme:
@@ -12,7 +12,7 @@ caches:
   images:
     dir: :cacheDir/images
 
-
+enableRobotsTXT: true
 
 
 params:
