@@ -7,12 +7,37 @@
     margin-bottom: 2px;
     font-size: 40px;
 }
-
 .post-description {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    padding: 0.75em 1em;
+    border-left: 4px solid #ccc;
+    border-radius: 6px;
 }
 
+/* Kopfzeile innerhalb der Description-Box */
+.post-description .description-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0.5em;
+    font-style: italic;
+    font-size: 1rem;
+    color: #666;
+}
+
+.post-description .description-header svg {
+    flex-shrink: 0;
+    fill: #888;
+}
+
+.post-description p {
+    margin: 0;
+}
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
