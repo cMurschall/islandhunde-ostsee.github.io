@@ -33,3 +33,30 @@
   font-weight: bold;
 
 }
+
+.entry-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  align-items: flex-start;
+}
+
+.entry-horizontal .entry-cover {
+  flex: 0 0 280px; /* feste Breite für das Cover */
+  margin-bottom: 0; /* bestehendes margin überschreiben */
+}
+
+.entry-horizontal .entry-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .entry-horizontal {
+    flex-direction: column;
+  }
+
+  .entry-horizontal .entry-cover {
+    width: 100%;
+  }
+}

@@ -5,3 +5,20 @@
   <script src="/js/d3.js"></script>
   <script src="/js/dogPedigreeChart.js"></script>
 {{ end }}
+
+
+
+{{ if eq hugo.Environment "development" }}
+<script>
+  console.log("🚧 Hugo Debug Info");
+  console.log("Layout: {{ .Layout }}");
+  console.log("Kind: {{ .Kind }}");
+  console.log("Type: {{ .Type }}");
+  console.log("Section: {{ .Section }}");
+  {{ with .File }}
+    console.log("Path: {{ .Path }}");
+  {{ else }}
+    console.log("Path: (no file – probably taxonomy or term page)");
+  {{ end }}
+</script>
+{{ end }}

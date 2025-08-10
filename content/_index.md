@@ -56,6 +56,16 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
+
+<!-- ---
+
+## Artikel & Wissenswertes
+
+Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahrungen aus dem Züchteralltag, geben Einblicke in Erziehung und Gesundheit – und erzählen Geschichten rund um unsere Hunde.
+
+➡️ [Zu unseren Artikeln und Blogbeiträgen](/posts/) -->
+
+
 <!-- ---
 
 ## Wurfplanung & Welpen

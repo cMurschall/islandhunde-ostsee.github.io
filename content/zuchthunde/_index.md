@@ -77,66 +77,66 @@ gallery:
     alten Steinmauer entlang.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-auf-palette.jpeg
+- src: /images/gruppen/islandhunde-auf-palette.webp
   alt: Zwei schwarz-weiße Islandhunde sitzen und liegen auf einer Holzpalette. Der
     obere Hund schaut in die Kamera, während der untere Hund seinen Kopf auf die Palette
     legt.
   caption: Zwei unserer Islandhunde auf ihrem Lieblingsplatz, der alten Palette.
   width: 1200
   height: 1600
-- src: /images/gruppen/islandhunde-im-auto.jpeg
+- src: /images/gruppen/islandhunde-im-auto.webp
   alt: Drei Islandhunde sitzen auf dem Rücksitz eines Autos und schauen aus dem Fenster.
     Zwei schwarz-weiße und ein weißer Islandhund.
   caption: Unsere Bande im Auto - immer bereit für ein neues Abenteuer.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-im-freien-campingplatz.jpeg
+- src: /images/gruppen/islandhunde-im-freien-campingplatz.webp
   alt: Zwei Islandhunde, einer weiß und einer schwarz-weiß, sitzen nebeneinander im
     Freien und schauen in die Ferne. Im Hintergrund sind Bäume, ein Wohnmobil und
     ein blaues Surfbrett zu sehen.
   caption: Zwei unserer Islandhunde genießen die Ruhe auf dem Platz.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-im-freien-felsen-gras.jpeg
+- src: /images/gruppen/islandhunde-im-freien-felsen-gras.webp
   alt: Drei Islandhunde posieren im Freien auf einem felsigen, grasbewachsenen Hang.
     Zwei schwarz-weiße Islandhunde stehen im Vordergrund, während ein weißer Islandhund
     im Hintergrund sitzt. Alle drei Hunde schauen in die Kamera und hecheln.
   caption: Unsere Isländer beim Erkunden des Steinhaufens.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-im-gras-spielend.jpeg
+- src: /images/gruppen/islandhunde-im-gras-spielend.webp
   alt: Drei Islandhunde sitzen in einem hohen, grünen Grasfeld. Zwei der Hunde sind
     schwarz-weiß, der dritte ist weiß. Eine rote und schwarze Leine liegt im Gras.
   caption: Drei unserer Hunde genießen das hohe Gras auf der Wiese.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-im-stall.jpeg
+- src: /images/gruppen/islandhunde-im-stall.webp
   alt: Drei Islandhunde sitzen und liegen im Sattelraum. Zwei schwarz-weiße und ein
     weißer Islandhund schauen in die Kamera. Ihre Pfoten sind schlammig. Im Hintergrund
     hängen Sättel.
   caption: Dreimal Islandhund-Charme im Sattelraum.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-schwarz-weiss-an-der-leine.jpeg
+- src: /images/gruppen/islandhunde-schwarz-weiss-an-der-leine.webp
   alt: Drei Islandhunde an der Leine. Zwei schwarz-weiße Islandhunde und ein weißer
     Islandhund sitzen und stehen auf einem gepflasterten Gehweg vor einem Haus. Hinter
     den Hunden befindet sich ein Metallgeländer und blühende Pflanzen.
   caption: Kurzer Spaziergang, die drei genießen die frische Luft.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-spaziergang-landweg-pferd-kind.jpeg
+- src: /images/gruppen/islandhunde-spaziergang-landweg-pferd-kind.webp
   alt: Drei Islandhunde gehen mit ihren Besitzern auf einem Feldweg spazieren. Im
     Hintergrund sind ein Pferd und das Meer zu sehen.
   caption: Frühlingsspaziergang mit den Hunden und dem Isländer.
   width: 1536
   height: 2048
-- src: /images/gruppen/islandhunde-unter-tor-versteckt.jpeg
+- src: /images/gruppen/islandhunde-unter-tor-versteckt.webp
   alt: Drei Islandhunde, zwei schwarz-weiße und ein weißer, liegen auf dem Bauch auf
     sandigem Boden und schauen unter einer Holztür hervor.
   caption: Neugierige Blicke unter dem Stalltor.
   width: 2048
   height: 1536
-- src: /images/gruppen/islandhunde-wandern-bergpfad.jpeg
+- src: /images/gruppen/islandhunde-wandern-bergpfad.webp
   alt: Drei Islandhunde laufen auf einem steinigen Pfad in einer hügeligen Landschaft.
     Im Hintergrund ist blauer Himmel und ein kleines Gewässer zu sehen.
   caption: Abenteuer im Abendlicht.
@@ -207,6 +207,8 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 
 ---
+
+## Weitere Bilder
 
 {{< gallery >}}
 
