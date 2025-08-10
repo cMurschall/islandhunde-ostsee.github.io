@@ -11,35 +11,25 @@ images:
 
 gallery:
 - src: /images/magni/islandhund-am-meer-kuehlungsborn.webp
-  alt: Ein schwarz-weißer Islandhund sitzt im grünen Gras an einer Steilküste. Im
-    Hintergrund erstreckt sich das Meer.
+  alt: Ein schwarz-weißer Islandhund sitzt im grünen Gras an einer Steilküste. Im Hintergrund erstreckt sich das Meer.
   caption: Küstenwind und grünes Gras -  ein perfekter Nachmittag für einen Spaziergang.
   width: 1536
   height: 2048
 - src: /images/magni/islandhund-am-meer.webp
-  alt: Ein schwarz-weißer Islandhund steht auf einem Felsen an der Küste und blickt
-    aufs Meer.
+  alt: Ein schwarz-weißer Islandhund steht auf einem Felsen an der Küste und blickt aufs Meer.
   caption: Küstenabenteuer mit einem unserer Isländer.
   width: 1600
   height: 1200
-- src: /images/magni/islandhund-auf-bank-im-garten.webp
-  alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einer weißen Gartenbank.
-    Im Hintergrund ist ein Traktor und der Abendhimmel zu sehen.
-  caption: Feierabend auf der Gartenbank.
-  width: 2048
-  height: 1536
+- src: /images/magni/islandhund-im-schnee.webp
+  alt: Ein schwarz-weißer Islandhund läuft spielerisch durch ein schneebedecktes Feld. Im Hintergrund sind Bäume, ein Zaun und ein Schuppen zu sehen.
+  caption: Winterfreuden auf dem Hof.
+  width: 1600
+  height: 1200
 - src: /images/magni/islandhund-auf-gruenem-stuhl.webp
-  alt: Ein schwarz-weißer Islandhund-Welpe liegt zusammengerollt auf einem hellgrünen
-    Stuhl und schaut direkt in die Kamera. Im Hintergrund hängen verschiedene Pferdeutensilien.
+  alt: Ein schwarz-weißer Islandhund-Welpe liegt zusammengerollt auf einem hellgrünen Stuhl und schaut direkt in die Kamera. Im Hintergrund hängen verschiedene Pferdeutensilien.
   caption: Gemütlicher Nachmittag auf dem Lieblingsstuhl.
   width: 1536
   height: 2048
-# - src: /images/magni/islandhund-auf-stuhl.webp
-#   alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einem grünen Stuhl
-#     und schaut direkt in die Kamera.
-#   caption: Gemütlicher Nachmittag auf dem Küchenstuhl.
-#   width: 1536
-#   height: 2048
 - src: /images/magni/islandhund-badewanne-sommer-kuehlung.webp
   alt: Ein schwarz-weißer Islandhund kühlt sich in einer mit Wasser gefüllten Badewanne
     ab. Die Badewanne steht im Freien auf einer Wiese, im Hintergrund sind Bäume und
@@ -54,12 +44,7 @@ gallery:
   caption: Sonnenbad auf der Steinmauer.
   width: 2048
   height: 1536
-- src: /images/magni/islandhund-im-schnee.webp
-  alt: Ein schwarz-weißer Islandhund läuft spielerisch durch ein schneebedecktes Feld.
-    Im Hintergrund sind Bäume, ein Zaun und ein Schuppen zu sehen.
-  caption: Winterfreuden auf dem Hof.
-  width: 1600
-  height: 1200
+
 - src: /images/magni/islandhund-im-stall-mit-zaumzeug-und-stiefeln.webp
   alt: Ein Islandhund liegt entspannt auf dem Boden eines Stalls, umgeben von Reitzubehör
     wie Zaumzeug und Stiefeln. Der schwarz-weiße Hund schaut in die Kamera und leckt
@@ -67,6 +52,12 @@ gallery:
   caption: Feierabend im Sattelraum.
   width: 1536
   height: 2048
+- src: /images/magni/islandhund-auf-bank-im-garten.webp
+  alt: Ein schwarz-weißer Islandhund-Welpe liegt entspannt auf einer weißen Gartenbank.
+    Im Hintergrund ist ein Traktor und der Abendhimmel zu sehen.
+  caption: Feierabend auf der Gartenbank.
+  width: 2048
+  height: 1536
 - src: /images/magni/islandhund-magni-ovalbahn.webp
   alt: Ein schwarz-weisser Islandhund liegt entspannt auf einem Holzsteg und blickt
     aufmerksam in die Ferne. Ein zweiter Islandhund ist im Hintergrund unscharf zu
