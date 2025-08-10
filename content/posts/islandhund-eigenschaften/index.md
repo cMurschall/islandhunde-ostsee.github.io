@@ -17,8 +17,6 @@ cover:
   alt: "Drei Islandhunde sitzen auf dem Rücksitz eines Autos und schauen aus dem Fenster. Zwei schwarz-weiße und ein weißer Islandhund."
 ---
 
-## 🐕 Was macht einen Islandhund besonders?
-
 
 
 Der Islandhund ist eine außergewöhnliche Hunderasse mit jahrhundertealter Geschichte. Ursprünglich begleitet er die Menschen auf Island seit der Besiedlung durch die Wikinger – als vielseitiger Arbeits- und Wachhund, der mit rauem Klima, weiten Landschaften und anspruchsvollen Aufgaben bestens zurechtkam. Diese Ursprünge prägen den Islandhund bis heute – und machen ihn zu einem treuen, aktiven und intelligenten Begleiter mit ganz eigenem Charme.
