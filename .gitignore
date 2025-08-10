@@ -40,3 +40,4 @@ yarn.lock
 .venv/
 
 gallery_output/
+image_metadata.json
