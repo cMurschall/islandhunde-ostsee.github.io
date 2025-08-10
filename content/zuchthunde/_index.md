@@ -152,10 +152,6 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ---
 
-{{< gallery >}}
-
----
-
 ### **Gerplu Magni**
 
 <!-- [![Magni](/images/magni/magni07.webp)](/zuchthunde/magni/) -->
@@ -179,7 +175,7 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 ### Snjófells Snjó-Birta
 
 <!-- [![Birna](/images/birna/birna2.webp)](/zuchthunde/snjobirta/) -->
-{{< figure src="/images/birna/weisser-hund-sitzt-auf-fels-am-meer.webp.webp"
+{{< figure src="/images/birna/weisser-hund-sitzt-auf-fels-am-meer.jpeg.webp"
    alt="Ein kleiner, weisser Islandhund sitzt auf einem grossen Felsen und blickt auf das blaue Meer und die hügelige Küste."
    link="/zuchthunde/snjobirta/"
    >}}
@@ -209,6 +205,10 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ➡️ [Mehr über Unndís](/zuchthunde/unndis/)
 
+
+---
+
+{{< gallery >}}
 
 ---
 
