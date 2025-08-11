@@ -67,8 +67,6 @@
 {{- /* Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
 
-{{ $style := resources.Get "scss/styles.scss" | toCSS }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}

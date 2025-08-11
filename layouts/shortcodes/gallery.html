@@ -1,7 +1,6 @@
 {{ $slides := .Page.Params.gallery | default slice }}
 {{ $visibleSlides := first 5 $slides }}
 {{ if gt (len $slides) 0 }}
-<link rel="stylesheet" href="/css/photoswipe.css" />
 
 <div class="image-gallery" id="gallery-{{ .Page.File.UniqueID }}">
   {{ range $index, $slide := $visibleSlides }}
