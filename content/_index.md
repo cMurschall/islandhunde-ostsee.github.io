@@ -16,7 +16,7 @@ breadcrumb: " "
    alt="Drei Islandhunde im Wald"
    caption="Un pour tous, tous pour un."
    align="center"
-   lazy="false"
+   lazy="true"
    width="2048"
    height="1536"
 >}}

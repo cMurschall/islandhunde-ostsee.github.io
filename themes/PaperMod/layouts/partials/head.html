@@ -66,10 +66,7 @@
 {{- /* bundle all required css */}}
 {{- /* Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
-
 {{ $customStyle := resources.Get "scss/styles.scss" | toCSS  }}
-
-
 {{ $styleBundle := slice $stylesheet $customStyle | resources.Concat "assets/css/style.css" | resources.Minify | fingerprint }}
 
 <link crossorigin="anonymous" href="{{ $styleBundle.RelPermalink }}" integrity="{{ $styleBundle.Data.Integrity }}" rel="preload stylesheet" as="style">
