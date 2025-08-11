@@ -3,13 +3,25 @@
 
 <div id="{{ .Get "id" }}"></div>
 <script>
-  window.addEventListener('load', () => {
+  (async function() {
+    // 1) load D3
+    await new Promise(res => {
+      const s = document.createElement("script");
+      s.src = "/js/d3.js";
+      s.onload = res;
+      document.head.appendChild(s);
+    });
+    // 2) load the pedigree code
+    await new Promise(res => {
+      const s = document.createElement("script");
+      s.src = "/js/dogPedigreeChart.js";
+      s.onload = res;
+      document.head.appendChild(s);
+    });
+    // 3) now fetch + render
     fetch("/data/dogs/{{ .Get "datafile" }}.json")
       .then(r => r.json())
-      .then(data => {
-        // by now d3.js and dogPedigreeChart.js have run
-        renderDogPedigreeChart("{{ .Get "id" }}", data);
-      })
+      .then(data => renderDogPedigreeChart("{{ .Get "id" }}", data))
       .catch(err => console.error("Pedigree fetch failed:", err));
-  });
+  })();
 </script>
