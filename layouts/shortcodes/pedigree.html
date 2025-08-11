@@ -3,9 +3,13 @@
 
 <div id="{{ .Get "id" }}"></div>
 <script>
-  fetch("/data/dogs/{{ .Get "datafile" }}.json")
-    .then(response => response.json())
-    .then(data => {
+  window.addEventListener('load', () => {
+    fetch("/data/dogs/{{ .Get "datafile" }}.json")
+      .then(r => r.json())
+      .then(data => {
+        // by now d3.js and dogPedigreeChart.js have run
         renderDogPedigreeChart("{{ .Get "id" }}", data);
-    });
+      })
+      .catch(err => console.error("Pedigree fetch failed:", err));
+  });
 </script>
