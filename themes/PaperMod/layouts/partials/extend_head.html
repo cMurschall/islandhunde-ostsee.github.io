@@ -6,8 +6,7 @@
 {{- /* Head custom content area end */ -}}
 
 
-{{ $customStyle := resources.Get "scss/styles.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $customStyle.RelPermalink }}" integrity="{{ $customStyle.Data.Integrity }}">
+
 
 
 <!-- Favicon für moderne Browser -->

@@ -67,13 +67,12 @@
 {{- /* Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
 
+{{ $customStyle := resources.Get "scss/styles.scss" | toCSS  }}
 
-{{- if not site.Params.assets.disableFingerprinting }}
-{{- $stylesheet := $stylesheet | fingerprint }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet" as="style">
-{{- else }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
-{{- end }}
+
+{{ $styleBundle := slice $stylesheet $customStyle | resources.Concat "assets/css/style.css" | resources.Minify | fingerprint }}
+
+<link crossorigin="anonymous" href="{{ $styleBundle.RelPermalink }}" integrity="{{ $styleBundle.Data.Integrity }}" rel="preload stylesheet" as="style">
 
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
