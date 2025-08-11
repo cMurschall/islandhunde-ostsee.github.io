@@ -155,11 +155,22 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 ### **Gerplu Magni**
 
 <!-- [![Magni](/images/magni/magni07.webp)](/zuchthunde/magni/) -->
-{{< figure src="/images/magni/islandhund-schwarz-weiss-auf-wiese.webp"
+<!-- {{< figure src="/images/magni/islandhund-schwarz-weiss-auf-wiese.webp"
    alt="Ein schwarz-weißer Islandhund mit langem Fell läuft über eine grüne Wiese mit vereinzelten weißen Blüten."
    link="/zuchthunde/magni/"
 
+   >}} -->
+
+   {{< responsive-figure
+   src="/images/magni/islandhund-schwarz-weiss-auf-wiese.webp"
+   alt="Ein schwarz-weißer Islandhund mit langem Fell läuft über eine grüne Wiese mit vereinzelten weißen Blüten."
+   align="center"
+   lazy="false"
+   width="1600"
+   height="1067"
+   link="/zuchthunde/magni/"
    >}}
+
 
 
 
@@ -175,10 +186,21 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 ### Snjófells Snjó-Birta
 
 <!-- [![Birna](/images/birna/birna2.webp)](/zuchthunde/snjobirta/) -->
-{{< figure src="/images/birna/weisser-hund-sitzt-auf-fels-am-meer.jpeg.webp"
+<!-- {{< figure src="/images/birna/weisser-hund-sitzt-auf-fels-am-meer.jpeg.webp"
    alt="Ein kleiner, weisser Islandhund sitzt auf einem grossen Felsen und blickt auf das blaue Meer und die hügelige Küste."
    link="/zuchthunde/snjobirta/"
+   >}} -->
+{{< responsive-figure
+   src="/images/birna/weisser-hund-sitzt-auf-fels-am-meer.jpeg.webp"
+   alt="Ein kleiner, weisser Islandhund sitzt auf einem grossen Felsen und blickt auf das blaue Meer und die hügelige Küste."
+   align="center"
+   lazy="false"
+   width="1600"
+   height="1200"
+   link="/zuchthunde/snjobirta/"
    >}}
+
+
 
 
 - **Name:** Snjófells Snjó-Birta (Rufname Birna)
@@ -192,9 +214,15 @@ Jeder Hund wird regelmäßig tierärztlich untersucht. Gesundheit, Charakter und
 
 ### Stjörnuljósa Unndís
 
-<!-- [![Birna](/images/unndis/unndis3.webp)](/zuchthunde/unndis/) -->
-{{< figure src="/images/unndis/unndis-islandhund-am-strand.webp"
+
+
+{{< responsive-figure
+   src="/images/unndis/unndis-islandhund-am-strand.webp"
    alt="Ein schwarz-weißer Islandhund sitzt auf einer Grasfläche an einer Steilküste. Im Hintergrund ist die Ostsee mit Wellen zu sehen. Der Himmel ist bewölkt."
+   align="center"
+   lazy="false"
+   width="2048"
+   height="1536"
    link="/zuchthunde/unndis/"
    >}}
 

@@ -6,14 +6,15 @@
 {{ $width := .Get "width" }}
 {{ $height := .Get "height" }}
 {{ $lazy := .Get "lazy" | default "true" }}
-
+{{ $link := .Get "link" }}
+{{ $target := .Get "target" }}
+{{ $rel := .Get "rel" }}
 
 {{ $baseName := (path.Base $src) | replaceRE "\\.[^.]+$" "" }}
 {{ $dir := (path.Dir $src) }}
 
 {{ $sizes := slice 320 640 960 1280 }}
 {{ $srcset := slice }}
-
 {{ range $sizes }}
   {{ $resized := printf "%s/%s-%dw.webp" $dir $baseName . }}
   {{ $srcset = $srcset | append (printf "%s %dw" $resized .) }}
@@ -21,23 +22,28 @@
 
 <figure{{ if or $class (eq $align "center") }} class="
            {{- if eq $align "center" }}align-center {{ end }}
-           {{- with $class }}{{ . }}{{- end }}"
-{{- end -}}>
+           {{- with $class }}{{ . }}{{- end }}"{{ end }}>
+
+  {{ if $link }}<a href="{{ $link }}"{{ with $target }} target="{{ . }}"{{ end }}{{ with $rel }} rel="{{ . }}"{{ end }}>{{ end }}
+
     <picture>
       <source type="image/webp"
               srcset="{{ delimit $srcset ", " }}"
               sizes="(max-width: 768px) 100vw, 640px">
-<img
-    {{ if eq $lazy "true" }} loading="lazy"{{ end }}
-     src="{{ $dir }}/{{ $baseName }}-640w.webp"
-     alt="{{ $alt }}"
-     style="width:100%; height:auto;"
-     {{ with $width }} width="{{ . }}"{{ end }}
-     {{ with $height }} height="{{ . }}"{{ end }} />
+      <img
+        {{ if eq $lazy "true" }}loading="lazy"{{ end }}
+        src="{{ $dir }}/{{ $baseName }}-640w.webp"
+        alt="{{ $alt }}"
+        style="width:100%; height:auto;"
+        {{ with $width }} width="{{ . }}"{{ end }}
+        {{ with $height }} height="{{ . }}"{{ end }} />
     </picture>
-    {{- if or $caption (.Get "attr") }}
-        <figcaption>
-            {{ if $caption }}<p>{{ $caption | markdownify }}</p>{{ end }}
-        </figcaption>
-    {{- end }}
+
+  {{ if $link }}</a>{{ end }}
+
+  {{ if or $caption (.Get "attr") }}
+    <figcaption>
+      {{ if $caption }}<p>{{ $caption | markdownify }}</p>{{ end }}
+    </figcaption>
+  {{ end }}
 </figure>
