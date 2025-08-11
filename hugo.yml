@@ -1,5 +1,6 @@
 baseURL: https://islandhunde-ostsee.de
-languageCode: en-us
+languageCode: de
+defaultContentLanguage: de
 title: Islandhunde Kjölavik
 theme:
   - PaperMod
@@ -16,6 +17,7 @@ enableRobotsTXT: true
 
 
 params:
+  author : Islandhunde Kjölavik
   disableThemeToggle: true
   showPostNavLinks: false
   hideSummary: true
@@ -26,7 +28,18 @@ params:
       url: "https://instagram.com/islandhunde_ostsee"
 
   assets:
-    favicon: "favicon.svg"
+    favicon : "favicon.ico"
+    favicon_svg : "favicon.svg"
+    favicon16x16 : "favicon-16x16.png"
+    favicon32x32 : "favicon-32x32.png"
+    favicon96x96 : "favicon-96x96.png"
+    favicon192 : "web-app-manifest-192x192.png"
+    favicon512 : "web-app-manifest-512x512.png"
+    apple_touch_icon : "apple-touch-icon.png"
+    safari_pinned_tab : "safari-pinned-tab.svg"
+    manifest : "site.webmanifest"
+    theme_color : "#003897"
+    msapplication_TileColor : "#003897"
 
   images:
   - /images/gruppen/drei-islandislandhunde-schwarz-weiss-veranda.jpeg
