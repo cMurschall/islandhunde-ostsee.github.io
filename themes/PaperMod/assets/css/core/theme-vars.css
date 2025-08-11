@@ -20,7 +20,7 @@
 
   --content: #222222;             /* Standard-Content-Text */
   --code-block-bg: #f4f4f4;       /* Codeblock-Hintergrund – hellgrau */
-  --code-bg: #efefef;             /* Inline-Code – etwas heller */
+  --code-bg: #ffffff;             /* Inline-Code – etwas heller */
 
   --border: #e5e5e5;              /* Rahmenfarbe */
   --highlight: #0d99ff;           /* Akzentfarbe – klares, modernes Blau */
