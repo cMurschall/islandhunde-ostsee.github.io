@@ -26,8 +26,6 @@ params:
       url: "https://instagram.com/islandhunde_ostsee"
 
   assets:
-    customCSS:
-      - "css/style.css"
     favicon: "favicon.svg"
 
   images:
