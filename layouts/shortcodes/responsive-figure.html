@@ -29,7 +29,7 @@
     <picture>
       <source type="image/webp"
               srcset="{{ delimit $srcset ", " }}"
-              sizes="(max-width: 768px) 100vw, 640px">
+              sizes="(max-width: 480px) 100vw, (max-width: 768px) 75vw, 640px">
       <img
         {{ if eq $lazy "true" }}loading="lazy"{{ end }}
         src="{{ $dir }}/{{ $baseName }}-640w.webp"
