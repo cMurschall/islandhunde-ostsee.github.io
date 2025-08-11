@@ -20,8 +20,8 @@
   {{ $srcset = $srcset | append (printf "%s %dw" $resized .) }}
 {{ end }}
 
-<figure{{ if or $class (eq $align "center") }} class="
-           {{- if eq $align "center" }}align-center {{ end }}
+<figure{{ if or $class (eq $align "center") }} class="responsive-figure
+           {{- if eq $align "center" }} align-center {{ end }}
            {{- with $class }}{{ . }}{{- end }}"{{ end }}>
 
   {{ if $link }}<a href="{{ $link }}"{{ with $target }} target="{{ . }}"{{ end }}{{ with $rel }} rel="{{ . }}"{{ end }}>{{ end }}
