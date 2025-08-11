@@ -17,9 +17,10 @@
   {{ end }}
 </div>
 
+{{ $pswp := resources.Get "js/photoswipe.esm.js" | minify | fingerprint }}
 
 <script type="module">
-import PhotoSwipe from '/js/photoswipe.esm.js';
+  import PhotoSwipe from "{{ $pswp.RelPermalink }}";
 
 const galleryData = JSON.parse({{ $slides | jsonify }});
 
@@ -36,7 +37,7 @@ document.querySelectorAll(`#gallery-{{ .Page.File.UniqueID }} a`).forEach((el, i
         caption: img.caption
       })),
       index: index,
-      pswpModule: () => import('/js/photoswipe.esm.js'),
+        pswpModule: () => import('{{ $pswp.RelPermalink }}'),
       paddingFn: () => ({
         top: 40,
         bottom: 80, // Platz für caption
