@@ -1,0 +1,30 @@
+.breadcrumbs {
+    font-size: 0.9em;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4em;
+    color: #333;
+
+    a {
+        text-decoration: none;
+        color: #007acc;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #005999;
+            text-decoration: underline;
+        }
+    }
+
+    span.separator {
+        color: #aaa;
+        user-select: none;
+    }
+
+    .current {
+        font-weight: bold;
+        color: #000;
+    }
+}

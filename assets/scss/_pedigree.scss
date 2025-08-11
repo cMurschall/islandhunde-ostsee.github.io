@@ -1,0 +1,29 @@
+
+.pedigree {
+  width: 100%;
+
+  svg {
+    margin: 0px !important;
+  }
+
+  rect {
+    stroke: lime;
+    fill: lightgray;
+    fill-opacity: 0.2;
+  }
+
+  .svg-tooltip {
+    pointer-events: none;
+  }
+
+  .tooltip {
+    padding: 10px;
+    color: #4a22ff;
+  }
+
+  .link {
+    fill: none;
+    stroke: lightgray;
+    stroke-width: 1px;
+  }
+}

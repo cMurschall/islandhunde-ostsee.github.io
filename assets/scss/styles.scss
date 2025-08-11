@@ -1,95 +1,11 @@
-.breadcrumbs {
-  font-size: 0.9em;
-  margin: 1.5rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.4em;
-  color: #333;
-}
 
-.breadcrumbs a {
-  text-decoration: none;
-  color: #007acc;
-  transition: color 0.2s ease;
-}
+@import "breadcrumbs";
+@import "entry-layout";
+@import "pedigree";
 
-.breadcrumbs a:hover {
-  color: #005999;
-  text-decoration: underline;
-}
 
-.breadcrumbs span.separator {
-  color: #aaa;
-  user-select: none;
-}
 
-.breadcrumbs .current {
-  font-weight: bold;
-  color: #000;
-}
 
 .external-link {
   font-weight: bold;
-
-}
-
-.entry-horizontal {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gap);
-  align-items: flex-start;
-}
-
-.entry-horizontal .entry-cover {
-  flex: 0 0 280px;
-  /* feste Breite für das Cover */
-  margin-bottom: 0;
-  /* bestehendes margin überschreiben */
-}
-
-.entry-horizontal .entry-info {
-  flex: 1;
-  min-width: 250px;
-}
-
-@media (max-width: 768px) {
-  .entry-horizontal {
-    flex-direction: column;
-  }
-
-  .entry-horizontal .entry-cover {
-    width: 100%;
-  }
-}
-
-
-
-.pedigree {
-  width: 100%;
-
-  svg {
-    margin: 0px !important;
-  }
-
-  rect {
-    stroke: lime;
-    fill: lightgray;
-    fill-opacity: 0.2;
-  }
-
-  .svg-tooltip {
-    pointer-events: none;
-  }
-
-  .tooltip {
-    padding: 10px;
-    color: #4a22ff;
-  }
-
-  .link {
-    fill: none;
-    stroke: lightgray;
-    stroke-width: 1px;
-  }
 }

@@ -1,12 +1,18 @@
 /* eslint-disable */
 
-let uuidCounter = 0;
-const generateUniqueId = () => {
-    uuidCounter++;
-    return "pedigreeChartId" + uuidCounter;
-};
+const generateUniqueId = (() => {
+    let counter = 0;
+    return () => `pedigreeChartId${++counter}`;
+})();
 
 const renderDogPedigreeChart = (containerId, dogData) => {
+    if (typeof d3 === "undefined") {
+        console.error("D3.js not loaded!");
+        return;
+    }
+
+    // console.log("Rendering pedigree chart for dog:", dogData);
+
     const pedigreeId = generateUniqueId();
 
     const containerElement = document.getElementById(containerId);
@@ -18,6 +24,10 @@ const renderDogPedigreeChart = (containerId, dogData) => {
     const innerDiv = document.createElement('div');
     innerDiv.id = pedigreeId;
     innerDiv.className = 'pedigree';
+    innerDiv.setAttribute("role", "img");
+    innerDiv.setAttribute("aria-label", "Stammbaumdiagramm für Islandhund " + dogData.name_and_origin);
+
+
     containerElement.appendChild(innerDiv);
 
     const aspectRatio = 1 / 2;
