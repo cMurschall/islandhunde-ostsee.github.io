@@ -1,5 +1,16 @@
 
 
+{{ $opts := dict
+  "minify" (not hugo.IsDevelopment)
+  "targetPath" "js/dogPedigreeChart.js"
+  "format" "iife"
+}}
+
+{{ $chartLib := resources.Get "js/dogPedigreeChart.js" | js.Build $opts | fingerprint }}
+{{ $chartLibSrc := $chartLib.RelPermalink }}
+{{ $chartLibIntegrity := $chartLib.Data.Integrity }}
+
+
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const charts = document.querySelectorAll(".pedigree-chart");
@@ -25,7 +36,7 @@
 
         if (!chartLibLoaded) {
           chartLibLoaded = true;
-          loadScript("{{ (resources.Get "js/dogPedigreeChart.js" | minify | fingerprint).RelPermalink }}")
+          loadScript("{{ $chartLibSrc }}", "{{ $chartLibIntegrity }}")
             .then(() => renderChart())
             .catch(err => console.error("Chart library load failed:", err));
         } else {

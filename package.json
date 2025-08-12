@@ -9,10 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "d3-hierarchy": "^3.1.2",
     "d3-selection": "^3.0.0",
     "esbuild": "^0.25.8"
-  },
-  "dependencies": {}
+  }
 }
