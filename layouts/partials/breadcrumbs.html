@@ -4,7 +4,7 @@
     {{- $label_text := (site.Params.label.text | default site.Title) }}
     {{- $lang := .Lang }}
     {{- with site.Home.Translations }}
-    <ul class="lang-switch">
+    <ul class="lang-switch" role="list">
 
       {{- range . }}
       {{- if ne $lang .Lang }}
