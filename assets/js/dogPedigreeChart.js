@@ -1,8 +1,8 @@
-// 📦 Importiere nur die benötigten Module aus D3
+
 import { select } from "d3-selection";
 import { hierarchy, tree } from "d3-hierarchy";
 
-// 📘 Styles: Du brauchst evtl. eigene CSS-Dateien für .link, .dog, .name, .id, .hd usw.
+
 
 const generateUniqueId = (() => {
     let counter = 0;

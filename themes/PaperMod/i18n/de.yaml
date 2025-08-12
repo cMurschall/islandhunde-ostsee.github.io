@@ -21,7 +21,7 @@
   translation: "Übersetzungen"
 
 - id: home
-  translation: "Home"
+  translation: "Startseite"
 
 - id: edit_post
   translation: "Bearbeiten"
@@ -31,3 +31,12 @@
 
 - id: code_copied
   translation: "Kopiert!"
+
+- id: imprint
+  translation: Impressum
+- id: privacy
+  translation: Datenschutzerklärung
+- id: breadcrumbSeparator
+  translation: " / "
+- id: summary
+  translation: "Zusammenfassung"

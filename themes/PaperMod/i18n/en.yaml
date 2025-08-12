@@ -31,3 +31,11 @@
 
 - id: code_copied
   translation: "copied!"
+- id: imprint
+  translation: Imprint
+- id: privacy
+  translation: Privacy Policy
+- id: breadcrumbSeparator
+  translation: " / "
+- id: summary
+  translation: "Summary"

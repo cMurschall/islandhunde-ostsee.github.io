@@ -39,10 +39,11 @@
 </script>
 {{- end }}
 
-{{- if false }}
+
 
 <header class="header">
     <nav class="nav">
+                 {{- if (not site.Params.disableLogo) }}
         <div class="logo">
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
@@ -120,6 +121,7 @@
                 </ul>
                 {{- end }}
             </div>
+            {{- end }}
         </div>
         {{- $currentPage := . }}
         <ul id="menu">
@@ -150,5 +152,3 @@
     </nav>
 </header>
 
-
-{{- end }}

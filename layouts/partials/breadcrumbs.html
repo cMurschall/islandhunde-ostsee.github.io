@@ -1,25 +1,57 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
-  <a href="{{ "/" | relURL }}">Startseite</a>
 
-  {{ $parent := .Parent }}
-  {{ $seen := slice }}
+  <div class="breadcrumb-lang">
+    {{- $label_text := (site.Params.label.text | default site.Title) }}
+    {{- $lang := .Lang }}
+    {{- with site.Home.Translations }}
+    <ul class="lang-switch">
 
-  {{ range seq 1 5 }}
-    {{ if and $parent (not (in $seen $parent.RelPermalink)) }}
-      {{ $seen = $seen | append $parent.RelPermalink }}
-
-      {{ if ne $parent.RelPermalink "/" }} <!-- überspringe die Startseite -->
-        <span> / </span>
-        <a href="{{ $parent.RelPermalink }}">
-          {{ with $parent.Params.breadcrumb }}{{ . }}{{ else }}{{ $parent.Title }}{{ end }}
+      {{- range . }}
+      {{- if ne $lang .Lang }}
+      <li>
+        <a href="{{ .Permalink }}"
+          title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+          aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+          {{- if and site.Params.displayFullLangName (.Language.LanguageName) }}
+          {{ .Language.LanguageName | emojify }}
+          {{- else }}
+          {{ .Lang | title }}
+          {{- end }}
         </a>
-      {{ end }}
+      </li>
+      {{- end }}
+      {{- end }}
+    </ul>
+    {{- end }}
+
+  </div>
 
 
-      {{ $parent = $parent.Parent }}
+  <div class="breadcrumb-path">
+    <a href="{{ $.Site.Home.RelPermalink }}">{{ i18n "home" }}</a>
+
+    {{ $parent := .Parent }}
+    {{ $seen := slice }}
+
+    {{ range seq 1 5 }}
+    {{ if and $parent (not (in $seen $parent.RelPermalink)) }}
+    {{ $seen = $seen | append $parent.RelPermalink }}
+
+    {{ if ne $parent.RelPermalink $.Site.Home.RelPermalink }}
+    <span>{{ i18n "breadcrumbSeparator" }}</span>
+    <a href="{{ $parent.RelPermalink }}">
+      {{ with $parent.Params.breadcrumb }}{{ . }}{{ else }}{{ $parent.Title }}{{ end }}
+    </a>
     {{ end }}
-  {{ end }}
 
-  <span> / </span>
-  <span class="current" aria-current="page">{{ with .Params.breadcrumb }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span>
+    {{ $parent = $parent.Parent }}
+    {{ end }}
+    {{ end }}
+
+    <span>{{ i18n "breadcrumbSeparator" }}</span>
+    <span class="current" aria-current="page">
+      {{ with .Params.breadcrumb }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+    </span>
+
+  </div>
 </nav>

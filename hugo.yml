@@ -1,14 +1,35 @@
 baseURL: https://islandhunde-ostsee.de
+
+
 languageCode: de
 defaultContentLanguage: de
+defaultContentLanguageInSubdir: false
+
+languages:
+  de:
+    languageName: ":de:"
+    languageAltTitle: "Deutsch"
+    weight: 1
+    title: Islandhunde Ostsee
+    params:
+      languageAltTitle: "Deutsch"
+  en:
+    languageName: ":gb:"
+    languageAltTitle: "English"
+    weight: 2
+    title: Icelandic Sheepdogs Baltic Sea
+    params:
+      languageAltTitle: "English"
+
+
 title: Islandhunde Kjölavik
+
+
 theme:
   - PaperMod
 
 googleAnalytics: ""
-
 disableHugoGeneratorInject : true
-
 caches:
   images:
     dir: :cacheDir/images
@@ -19,7 +40,9 @@ enableRobotsTXT: true
 params:
   author : Islandhunde Kjölavik
   disableThemeToggle: true
+  disableLogo: true
   showPostNavLinks: false
+  displayFullLangName: true
   hideSummary: true
   description : "Islandhunde Zucht an der Ostsee - liebevoll und verantwortungsvoll nach FCI-Standard."
   socialIcons:
