@@ -22,7 +22,7 @@ languages:
       languageAltTitle: "English"
 
 
-title: Islandhunde Kjölavik
+title: Islandhunde Kjölavík
 
 
 theme:
@@ -38,7 +38,7 @@ enableRobotsTXT: true
 
 
 params:
-  author : Islandhunde Kjölavik
+  author : Islandhunde Kjölavík
   disableThemeToggle: true
   disableLogo: true
   showPostNavLinks: false
