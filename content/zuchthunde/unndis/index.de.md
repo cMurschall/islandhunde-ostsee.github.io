@@ -4,7 +4,7 @@ date: 2025-08-02
 draft: false
 tags: ["Hündin", "Islandhund", "Zucht", "FCI", "Stjörnuljósa"]
 breadcrumb: "Unndís"
-description: "Unndís ist eine clevere, menschenbezogene Islandhündin voller Energie, Persönlichkeit und Entdeckergeist. Ihre offene Art und ihre Kreativität machen sie zu einer besonderen Begleiterin in Alltag und Zucht."
+description: "Unndís ist eine clevere, menschenbezogene Islandhündin voller Energie, Persönlichkeit und Entdeckergeist. Ihre offene Art und ihre Kreativität machen sie zu einer besonderen Begleiterin in Alltag."
 
 
 images:

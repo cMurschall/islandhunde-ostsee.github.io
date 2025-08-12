@@ -11,7 +11,7 @@ tags:
 breadcrumb: Unndís
 description: Unndís is a clever, people-oriented Icelandic Sheepdog full of energy,
   personality, and curiosity. Her outgoing nature and creativity make her a special
-  companion in daily life and breeding.
+  companion in daily life.
 images:
 - /images/unndis/islandhund-welpe-am-fenster.jpeg
 gallery:
