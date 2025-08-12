@@ -61,7 +61,7 @@ jobs:
         with:
           node-version: 20
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: npm install
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
