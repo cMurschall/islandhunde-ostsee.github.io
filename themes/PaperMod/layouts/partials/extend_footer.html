@@ -5,22 +5,44 @@
     const charts = document.querySelectorAll(".pedigree-chart");
     if (charts.length === 0) return;
 
-    // Dynamically load d3.js and chart code only when needed
-    Promise.all([
-     loadScript("{{ (resources.Get "js/dogPedigreeChart.js" | minify | fingerprint).RelPermalink }}"),
+    let chartLibLoaded = false;
 
-    ])
-    .then(() => {
-      charts.forEach(el => {
+    // Create the IntersectionObserver
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+
+        const el = entry.target;
         const id = el.dataset.id;
         const file = el.dataset.file;
-        fetch(`/data/dogs/${file}.json`)
-          .then(r => r.json())
-          .then(data => renderDogPedigreeChart(id, data))
-          .catch(err => console.error("Pedigree fetch failed:", err));
+
+        const renderChart = () => {
+          fetch(`/data/dogs/${file}.json`)
+            .then(r => r.json())
+            .then(data => renderDogPedigreeChart(id, data))
+            .catch(err => console.error("Pedigree fetch failed:", err));
+        };
+
+        if (!chartLibLoaded) {
+          chartLibLoaded = true;
+          loadScript("{{ (resources.Get "js/dogPedigreeChart.js" | minify | fingerprint).RelPermalink }}")
+            .then(() => renderChart())
+            .catch(err => console.error("Chart library load failed:", err));
+        } else {
+          renderChart();
+        }
+
+        obs.unobserve(el); // Don't re-trigger
       });
+    }, {
+      rootMargin: "100px",
+      threshold: 0
     });
 
+    // Observe each chart container
+    charts.forEach(el => observer.observe(el));
+
+    // Helper to dynamically load script
     function loadScript(src) {
       return new Promise((resolve, reject) => {
         const s = document.createElement("script");
@@ -33,7 +55,6 @@
     }
   });
 </script>
-
 
 
 
