@@ -1,0 +1,18 @@
+{
+  "name": "islandhunde-ostsee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild assets/js/dogPedigreeChartBundle.js --bundle --format=iife --target=es2015  --outfile=assets/js/dogPedigreeChart.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "d3-hierarchy": "^3.1.2",
+    "d3-selection": "^3.0.0",
+    "esbuild": "^0.25.8"
+  },
+  "dependencies": {}
+}

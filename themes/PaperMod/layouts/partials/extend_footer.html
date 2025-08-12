@@ -1,6 +1,5 @@
 
 
-
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const charts = document.querySelectorAll(".pedigree-chart");
@@ -8,8 +7,8 @@
 
     // Dynamically load d3.js and chart code only when needed
     Promise.all([
-      loadScript("{{ (resources.Get "js/d3.js" | minify | fingerprint).RelPermalink }}"),
-      loadScript("{{ (resources.Get "js/dogPedigreeChart.js" | minify | fingerprint).RelPermalink }}")
+     loadScript("{{ (resources.Get "js/dogPedigreeChart.js" | minify | fingerprint).RelPermalink }}"),
+
     ])
     .then(() => {
       charts.forEach(el => {
