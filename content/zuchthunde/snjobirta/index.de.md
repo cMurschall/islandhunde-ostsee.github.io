@@ -62,7 +62,7 @@ gallery:
 - src: /images/birna/weisser-islandhund-im-wasserbecken.webp
   alt: Ein weißer Islandhund-Welpe steht in einem schwarzen Wasserbecken vor einer
     Steinmauer.
-  caption: Neugierig erkundet unser kleiner Weißer die Welt - diesmal eine alte Schale
+  caption: Neugierig erkundet unser kleine Weiße die Welt - diesmal eine alte Schale
     im Garten.
   width: 2048
   height: 1536
@@ -147,7 +147,7 @@ Trotz ihrer sanften, ruhigen Ausstrahlung ist sie wachsam und zeigt ein gutes Ge
 - **Wesen:** zutraulich, freundlich, verträumt
 - **Typ:** feminin, mittelkräftig
 - **Gangwerk:** flüssig, mit viel Schub
-- **Besonderheit:** doppelte Afterkrallen beidseitig
+- **Besonderheit:** doppelte Afterkrallen beidseitig, Wechselnase
 
 ## Herkunft
 

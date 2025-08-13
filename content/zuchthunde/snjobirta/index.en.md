@@ -71,7 +71,7 @@ Despite her gentle and calm demeanor, she is alert and has a good sense of situa
 - **Character:** Trusting, friendly, dreamy
 - **Type:** Feminine, medium-strong
 - **Movement:** Smooth, with plenty of drive
-- **Special Feature:** Double dewclaws on both sides
+- **Special Feature:** Double dewclaws on both sides, butterfly nose
 
 ## Lineage
 
