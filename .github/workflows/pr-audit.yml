@@ -50,6 +50,12 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Convert images to WebP
+        run: python3 scripts/convert-to-webp.py
+
       - name: Get changed files (base..PR)
         id: changed
         shell: bash
