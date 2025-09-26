@@ -49,6 +49,7 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 - 🌿 Eine bewusste, liebevolle, bellarme Zucht
 - 📚 Fachwissen und ganz viel Herzblut in der Aufzucht
 
+
 ---
 
 ## Unsere Hunde
@@ -99,5 +100,15 @@ Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse od
 
 📸 Du willst noch mehr Bilder sehen? Folge uns auf Instagram: {{< external-link url="https://instagram.com/islandhunde_ostsee" text="@islandhunde_ostsee" >}}
 
-Wir freuen uns auf deine Nachricht!
 
+
+
+Wir sind Mitglied im Züchterclub des VDH
+
+{{< plaque
+    url="https://welpen.vdh.de/hunderassen/rasselexikon/zuechter/marie-lange-fuchs"
+    img="https://welpen.vdh.de/plakette/11004"
+    alt="VDH breeder plaque"
+>}}
+
+Wir freuen uns auf deine Nachricht!

@@ -61,4 +61,16 @@ Would you like to meet us and our dogs – or do you have questions about the br
 
 📸 Want to see more pictures? Follow us on Instagram: {{< external-link url="https://instagram.com/islandhunde_ostsee" text="@islandhunde_ostsee" >}}
 
+
+
+
+We are a member of the VDH breeders’ club
+
+{{< plaque
+    url="https://welpen.vdh.de/hunderassen/rasselexikon/zuechter/marie-lange-fuchs"
+    img="https://welpen.vdh.de/plakette/11004"
+    alt="VDH breeder plaque"
+>}}
+
+
 We look forward to hearing from you!

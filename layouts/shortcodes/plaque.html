@@ -1,0 +1,7 @@
+<div style="margin-top:2rem; text-align:center;">
+  <a href="{{ .Get "url" }}" target="_blank" rel="noopener">
+    <img src="{{ .Get "img" }}"
+         alt="{{ with .Get "alt" }}{{ . }}{{ else }}Breeder plaque{{ end }}"
+         style="max-width:150px; height:auto;">
+  </a>
+</div>
