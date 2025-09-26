@@ -18,12 +18,15 @@ breadcrumb: " "
    height="1536"
 >}}
 
-{{< alert title="Good News!" >}}
+{{< alert title="Exciting News!" >}}
 
-We’re expecting **puppies** from **[Magni](/en/zuchthunde/magni/)** and **[Birna](/en/zuchthunde/snjobirta/)**! \
-Expected due date: *Early October 2025* 🍼🐾
+On **September 25, 2025**, our **[Birna](/zuchthunde/snjobirta/)** gave birth to six healthy puppies from **[Magni](/zuchthunde/magni/)**: **five males and one female**, all with double dewclaws. 🍼🐾
 
+![Icelandic Sheepdog Birna with puppies](/images/wuerfe/a/week1/islandhund-binra-im-stehen-kinder.webp )
+
+👉 Find more details and the first pictures in our [litter announcement](/posts/a-wurf-bekanntmachung).
 {{< /alert >}}
+
 
 We are a small, family-run Icelandic Sheepdog kennel located on the picturesque Baltic Sea coast. Our dogs live with us as full family members on our Icelandic horse farm Kjölavík – together with horses, cats, and a steady stream of visitors including children of all ages, surrounded by nature, open space, and sea breeze.
 
