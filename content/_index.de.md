@@ -23,9 +23,13 @@ breadcrumb: " "
 
 {{< alert title="Gute Neuigkeiten!" >}}
 
-Wir erwarten **Welpen** von **[Magni](/zuchthunde/magni/)** und **[Birna](/zuchthunde/snjobirta/)**! \
-Voraussichtlicher Geburtstermin: *Anfang Oktober 2025* 🍼🐾
+Am **25. September 2025** hat unsere **[Birna](/zuchthunde/snjobirta/)** sechs gesunde Welpen von **[Magni](/zuchthunde/magni/)** zur Welt gebracht: **fünf Rüden und eine Hündin**, alle mit doppelten Afterkrallen. 🍼🐾
 
+
+![Islandhund Birna mit Welpen](/images/wuerfe/a/week1/islandhund-binra-im-stehen-kinder.webp )
+
+
+👉 Mehr Infos und erste Bilder findest du in unserer [Wurfbekanntmachung](/posts/a-wurf-bekanntmachung).
 {{< /alert >}}
 
 
@@ -58,7 +62,7 @@ Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Ge
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
 
-<!-- ---
+---
 
 ## Artikel & Wissenswertes
 
@@ -67,7 +71,7 @@ Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahru
 ➡️ [Zu unseren Artikeln und Blogbeiträgen](/posts/) -->
 
 
-<!-- ---
+---
 
 ## Wurfplanung & Welpen
 

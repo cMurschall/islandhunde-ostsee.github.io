@@ -24,6 +24,11 @@ languages:
 
 title: Islandhunde Kjölavík
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 theme:
   - PaperMod
@@ -35,7 +40,6 @@ caches:
     dir: :cacheDir/images
 
 enableRobotsTXT: true
-
 
 params:
   author : Islandhunde Kjölavík
@@ -66,3 +70,5 @@ params:
 
   images:
   - /images/gruppen/drei-islandislandhunde-schwarz-weiss-veranda.jpeg
+
+
