@@ -28,7 +28,7 @@ On **September 25, 2025**, our **[Birna](/zuchthunde/snjobirta/)** gave birth to
 {{< /alert >}}
 
 
-We are a small, family-run Icelandic Sheepdog kennel located on the picturesque Baltic Sea coast. Our dogs live with us as full family members on our Icelandic horse farm Kjölavík – together with horses, cats, and a steady stream of visitors including children of all ages, surrounded by nature, open space, and sea breeze.
+We are a small, family-run Icelandic Sheepdog breeding program in Schleswig-Holstein, in the far north of Germany, right on the beautiful Baltic Sea coast. Our dogs live as full members of the family with us on our Icelandic horse farm Kjölavík together with horses, cats, and plenty of visitors including children of all ages, surrounded by nature, open space, and sea breeze.
 
 🐾 **Icelandic Sheepdogs** are cheerful, intelligent, and sensitive companions with a unique personality. Our breeding follows the strict guidelines of DCNH and FCI – with a strong focus on health, character, and social compatibility.
 
