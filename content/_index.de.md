@@ -4,7 +4,7 @@ date: 2025-06-29T00:00:00+01:00
 draft: false
 type: _default
 layout: single
-summary: "Islandhunde Zucht mit Herzblut an der Ostsee – Familienaufzucht mit Fokus auf Gesundheit und Charakter."
+summary: "Islandhunde Zucht mit Herzblut in Schleswig-Holstein an der Ostsee. Familienaufzucht im Norden mit Fokus auf Gesundheit und Charakter."
 breadcrumb: " "
 
 ---
@@ -33,9 +33,9 @@ Am **25. September 2025** hat unsere **[Birna](/zuchthunde/snjobirta/)** sechs g
 {{< /alert >}}
 
 
-Wir sind eine kleine, familiäre Islandhundezucht an der malerischen Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof Kjölavík – gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
+Wir sind eine kleine, familiäre Islandhundezucht in Schleswig-Holstein, im hohen Norden Deutschlands, direkt an der wunderbaren Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof Kjölavík. Gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
 
-🐾 **Islandhunde** sind lebensfrohe, kluge und einfühlsame Begleiter mit einem einzigartigen Wesen. Unsere Zucht folgt den strengen Vorgaben von DCNH und FCI – mit einem klaren Fokus auf Gesundheit, Charakterstärke und Sozialverträglichkeit.
+🐾 **Islandhunde** sind lebensfrohe, kluge und einfühlsame Begleiter mit einem einzigartigen Wesen. Unsere Zucht folgt den strengen Vorgaben von DCNH und FCI mit einem klaren Fokus auf Gesundheit, Charakterstärke und Sozialverträglichkeit.
 
 
 {{< quote >}}
@@ -46,19 +46,21 @@ Sturmerprobt und herzensgut - Islandhunde von der Ostseeküste
 
 ## Unsere Philosophie
 
-Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
+Zucht bedeutet für uns Verantwortung und Liebe zum Detail:
 
 - 🐶 Leben in der Familie statt Zwingerhaltung
 - 📋 Umfassende Gesundheitsuntersuchungen nach höchsten Standards
 - 🌿 Eine bewusste, fürsorgliche, bellarme Zucht
 - 📚 Fachwissen und ganz viel Herzblut in der Aufzucht
 
+Unsere Islandhunde wachsen dort auf, wo andere Urlaub machen: in Schleswig-Holstein, im Norden an der Ostsee.
+Hier auf unserem Islandpferdehof Kjölavík finden sie Natur, Weite und Wind -  die besten Bedingungen für glückliche, gesunde Hunde.
 
 ---
 
 ## Unsere Hunde
 
-Lerne unsere Zuchthunde kennen – mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
+Lerne unsere Zuchthunde kennen mit liebevollen Porträts, Ahnentafeln und Gesundheitsnachweisen:
 ➡️ [Zu unseren Hunden](/zuchthunde/)
 
 
