@@ -50,7 +50,7 @@ Zucht bedeutet für uns Verantwortung – und Liebe zum Detail:
 
 - 🐶 Leben in der Familie statt Zwingerhaltung
 - 📋 Umfassende Gesundheitsuntersuchungen nach höchsten Standards
-- 🌿 Eine bewusste, liebevolle, bellarme Zucht
+- 🌿 Eine bewusste, fürsorgliche, bellarme Zucht
 - 📚 Fachwissen und ganz viel Herzblut in der Aufzucht
 
 
