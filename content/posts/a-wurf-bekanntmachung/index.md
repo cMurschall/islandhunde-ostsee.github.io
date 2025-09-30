@@ -6,7 +6,7 @@ tags: [Welpen, Wurfankündigung, Islandhund, Birna]
 categories: [Nachrichten]
 author: "Islandhunde Ostsee"
 summary: "Am 25. September hat unsere Hündin Birna sechs gesunde Welpen zur Welt gebracht - fünf Rüden und eine Hündin."
-breadcrumb: "Wurfankündigung: Birna hat Welpen bekommen!"
+breadcrumb: "Unser A-Wurf ist da"
 
 cover:
   hidden: false
