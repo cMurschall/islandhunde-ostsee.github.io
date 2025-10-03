@@ -8,7 +8,7 @@ author: "Islandhunde Ostsee"
 summary: "Viele Familien stehen vor der Entscheidung: Rüde oder Hündin? Wir zeigen, warum ein Rüde eine wunderbare Wahl sein kann."
 breadcrumb: "Warum ein Rüde?"
 cover:
-  hidden: false
+  hidden: true
   image: "/images/magni/islandhund-am-meer.webp"
   alt: "Islandhund-Rüde vor der Ostsee."
 ---
