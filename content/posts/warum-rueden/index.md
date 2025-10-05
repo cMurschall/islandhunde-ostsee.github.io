@@ -29,4 +29,4 @@ Das ist eine berechtigte Frage. Ja, Rüden  markieren draußen. Allerdings ist d
 
 
 ### Fazit
-Wer sich für einen Rüden entscheidet, gewinnt einen fröhlichen, robusten und treuen Begleiter fürs Leben – perfekt für aktive Familien, die einen echten Freund an ihrer Seite suchen.
+Wer sich für einen Rüden entscheidet, gewinnt einen fröhlichen, robusten und treuen Begleiter fürs Leben. Perfekt für aktive Familien, die einen echten Freund an ihrer Seite suchen.

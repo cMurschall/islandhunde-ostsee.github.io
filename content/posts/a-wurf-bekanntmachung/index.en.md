@@ -26,7 +26,7 @@ gallery:
 ---
 
 ### Our First Litter Has Arrived!
-On September 15, 2025, our [Birna](/zuchthunde/snjobirta/) gave birth to six healthy puppies – **five males and one female**. All puppies have the breed-typical **double dewclaws** of the Icelandic Sheepdog.
+On September 25, 2025, our [Birna](/zuchthunde/snjobirta/) gave birth to six healthy puppies – **five males and one female**. All puppies have the breed-typical **double dewclaws** of the Icelandic Sheepdog.
 
 Mother and pups are doing well. The little ones are thriving and spending their first days peacefully in the whelping box. Birna is taking care of her lively bunch with calmness and devotion.
 

@@ -26,7 +26,7 @@ gallery:
 ---
 
 ### Unser erster Wurf ist da!
-Am 15. September 2025 hat unsere [Birna](/zuchthunde/snjobirta/) sechs gesunde Welpen zur Welt gebracht – **fünf Rüden und eine Hündin**. Alle Welpen haben die für den Islandhund typischen **doppelten Afterkrallen**.
+Am 25. September 2025 hat unsere [Birna](/zuchthunde/snjobirta/) sechs gesunde Welpen zur Welt gebracht – **fünf Rüden und eine Hündin**. Alle Welpen haben die für den Islandhund typischen **doppelten Afterkrallen**.
 
 Mutter und Nachwuchs sind wohlauf, die Kleinen entwickeln sich prächtig und verbringen ihre ersten Tage entspannt in der Wurfkiste. Birna kümmert sich fürsorglich und gelassen um ihre Rasselbande.
 
