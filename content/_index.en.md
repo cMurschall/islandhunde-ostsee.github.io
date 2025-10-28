@@ -18,14 +18,21 @@ breadcrumb: " "
    height="1536"
 >}}
 
-{{< alert title="Exciting News!" >}}
+{{< alert title="Puppy Update: 4 Weeks Old!" >}}
 
-On **September 25, 2025**, our **[Birna](/zuchthunde/snjobirta/)** gave birth to six healthy puppies from **[Magni](/zuchthunde/magni/)**: **five males and one female**, all with double dewclaws. 🍼🐾
+Our little Icelandic Sheepdogs are now **four weeks old** and are eagerly discovering the big world around them! 🐶🌿
+They love to play, explore, and enjoy their first little adventures in the garden – it’s a joy to watch them grow and develop.
 
-![Icelandic Sheepdog Birna with puppies](/images/wuerfe/a/week1/islandhund-binra-im-stehen-kinder.webp )
+👉 Find more details and pictures in our [4-week update](/en/posts/a-wurf-4-weeks/).
 
-👉 Find more details and the first pictures in our [litter announcement](/posts/a-wurf-bekanntmachung).
+Some of our puppies are still looking for a loving home. ❤️
+If you’re interested in welcoming one of our Icelandic Sheepdogs into your family, **we’d love to hear from you** – feel free to get in touch and learn more about the little ones!
+
+📩 [Get in touch](#contact)
+
+![Four-week-old Icelandic Sheepdog puppies](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
 {{< /alert >}}
+
 
 
 We are a small, family-run Icelandic Sheepdog breeding program in Schleswig-Holstein, in the far north of Germany, right on the beautiful Baltic Sea coast. Our dogs live as full members of the family with us on our Icelandic horse farm Kjölavík together with horses, cats, and plenty of visitors including children of all ages, surrounded by nature, open space, and sea breeze.

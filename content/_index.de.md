@@ -21,15 +21,20 @@ breadcrumb: " "
    height="1536"
 >}}
 
-{{< alert title="Gute Neuigkeiten!" >}}
+{{< alert title="Welpen-Update: 4 Wochen alt!" >}}
 
-Am **25. September 2025** hat unsere **[Birna](/zuchthunde/snjobirta/)** sechs gesunde Welpen von **[Magni](/zuchthunde/magni/)** zur Welt gebracht: **fünf Rüden und eine Hündin**, alle mit doppelten Afterkrallen. 🍼🐾
+Unsere kleinen Islandhunde sind jetzt **vier Wochen alt** und entdecken mit neugierigen Blicken die große Welt! 🐶🌿
+Sie spielen, toben und genießen ihre ersten Ausflüge in den Garten – die Entwicklung ist einfach wunderbar mit anzusehen.
+
+👉 Mehr Bilder und Infos findest du im [4-Wochen-Update](/posts/a-wurf-4-weeks/).
 
 
-![Islandhund Birna mit Welpen](/images/wuerfe/a/week1/islandhund-binra-im-stehen-kinder.webp )
+Einige unserer Welpen suchen noch ein liebevolles Zuhause. ❤️
+Wenn du Interesse an einem unserer Islandhunde hast, **melde dich gerne bei uns** – wir freuen uns über deine Nachricht und erzählen dir mehr über die Kleinen!
 
+📩 [Jetzt Kontakt aufnehmen](#kontakt)
 
-👉 Mehr Infos und erste Bilder findest du in unserer [Wurfbekanntmachung](/posts/a-wurf-bekanntmachung).
+![Vier Wochen alte Islandhund-Welpen](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
 {{< /alert >}}
 
 
