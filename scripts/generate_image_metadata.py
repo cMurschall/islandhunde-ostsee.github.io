@@ -2,17 +2,22 @@ import os
 import json
 from PIL import Image
 from pathlib import Path
-import google.generativeai as genai
 
-# 📁 Einstellungen
-target_dir = Path("public")
+# New Google GenAI SDK
+from google import genai
+from google.genai import types
+
+# 📁 Settings
+target_dir = Path(r"D:\projects\islandhunde-ostsee\static\images\wuerfe\a\week4")
 quality = 80
 output_json = "image_metadata.json"
 valid_extensions = (".jpg", ".jpeg", ".png")
 
-# 🔑 Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
+# 🔑 Gemini / Google AI client (uses GEMINI_API_KEY or GOOGLE_API_KEY)
+client = genai.Client()
+MODEL_ID = "gemini-2.5-flash"  # current multimodal alias
+CAPTION_TEMPERATURE = 0.9
+DESC_TEMPERATURE = 0.4
 
 
 def load_metadata():
@@ -27,28 +32,48 @@ def save_metadata(metadata_dict):
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(list(metadata_dict.values()), f, indent=2, ensure_ascii=False)
 
-def generate_captions(image_path):
-    img = Image.open(image_path)
 
+def _read_image_as_bytes(image_path: Path):
+    # Validate it's an image
+    with Image.open(image_path) as _:
+        pass
+    mime = {
+        ".jpg": "image/jpeg",
+        ".jpeg": "image/jpeg",
+        ".png": "image/png",
+    }.get(image_path.suffix.lower(), "image/jpeg")
+    with open(image_path, "rb") as f:
+        image_bytes = f.read()
+    return image_bytes, mime
+
+
+def generate_captions(image_path: Path):
+    # (Keep your original German prompt exactly)
     prompt = (
-    "Stelle dir vor, du schreibst für die Webseite einer kleinen, liebevollen Islandhundezucht. "
-    "Auf dem Bild ist ein Islandhund (oder mehrere) aus unserer Zucht zu sehen. "
-    "Formuliere 4 kurze, natürliche Bildunterschriften, die authentisch wirken, nicht werblich sind, "
-    "und zu einer echten Familienzucht passen. "
-    "Kein Marketing-Sprech, keine Emojis, keine übertriebene Sprache. "
-    "Die Bildunterschriften sollen ruhig, bodenständig und bildbeschreibend sein.\n"
-    "Gib nur die vier Bildunterschriften in einer nummerierten Liste zurück."
+        "Stelle dir vor, du schreibst für die Webseite einer kleinen, liebevollen Islandhundezucht. "
+        "Auf dem Bild ist ein Islandhund (oder mehrere) aus unserer Zucht zu sehen. "
+        "Formuliere 4 kurze, natürliche Bildunterschriften, die authentisch wirken, nicht werblich sind, "
+        "und zu einer echten Familienzucht passen. "
+        "Kein Marketing-Sprech, keine Emojis, keine übertriebene Sprache. "
+        "Die Bildunterschriften sollen ruhig, bodenständig und bildbeschreibend sein.\n"
+        "Gib nur die vier Bildunterschriften in einer nummerierten Liste zurück."
     )
 
-    response = model.generate_content(
-        [prompt, img],
-        generation_config={"temperature": 0.9}  # etwas kreativer
+    image_bytes, mime = _read_image_as_bytes(image_path)
+
+    resp = client.models.generate_content(
+        model=MODEL_ID,
+        contents=[
+            types.Part.from_bytes(data=image_bytes, mime_type=mime),
+            prompt,
+        ],
+        config=types.GenerateContentConfig(temperature=CAPTION_TEMPERATURE),
     )
-    print(f"📝 Gemini response: {response.text}")
+    print(f"📝 Gemini response: {getattr(resp, 'text', '')}")
+    return getattr(resp, "text", "") or ""
 
-    return response.text
 
-def parse_captions(text):
+def parse_captions(text: str):
     lines = text.strip().splitlines()
     captions = []
     for line in lines:
@@ -64,10 +89,8 @@ def parse_captions(text):
     return captions
 
 
-
-def generate_description(image_path):
-    img = Image.open(image_path)
-
+def generate_description(image_path: Path):
+    # (Keep your original German prompt exactly)
     prompt = (
         "Du bist ein SEO-Experte. Gehe davon aus, dass alle Hunde auf den Bildern Islandhunde unserer Zucht sind. Analysiere das Bild und gib Folgendes zurück:\n"
         "1. Einen neuen, SEO-freundlichen Dateinamen (nur Kleinbuchstaben, keine Umlaute, Bindestriche, keine Endung).\n"
@@ -75,15 +98,21 @@ def generate_description(image_path):
         "Format:\nDateiname: <...>\nAlt-Text: <...>"
     )
 
-    response = model.generate_content(
-        [prompt, img],
-        generation_config={"temperature": 0.4}
+    image_bytes, mime = _read_image_as_bytes(image_path)
+
+    resp = client.models.generate_content(
+        model=MODEL_ID,
+        contents=[
+            types.Part.from_bytes(data=image_bytes, mime_type=mime),
+            prompt,
+        ],
+        config=types.GenerateContentConfig(temperature=DESC_TEMPERATURE),
     )
 
-    return response.text
+    return getattr(resp, "text", "") or ""
 
 
-def parse_response(text):
+def parse_response(text: str):
     lines = text.strip().splitlines()
     filename = None
     alt_text = None
@@ -111,11 +140,10 @@ def main():
 
     for img_path in image_files:
         rel_path = str(img_path.relative_to(target_dir))
-
         entry = metadata.get(rel_path, {"original": rel_path})
 
         try:
-            # 📏 Bilddimensionen ergänzen
+            # Add image dimensions if missing
             with Image.open(img_path) as img:
                 width, height = img.size
             if "width" not in entry or "height" not in entry:
@@ -127,7 +155,7 @@ def main():
             print(f"❌ Failed to read image size for {rel_path}: {e}")
             continue
 
-        # 🧠 Beschreibung nur generieren, wenn nötig
+        # Generate filename + alt only if needed
         if "filename" not in entry or "alt" not in entry:
             try:
                 print(f"🧠 Generating metadata: {rel_path}")
@@ -143,7 +171,8 @@ def main():
             except Exception as e:
                 print(f"❌ Gemini error for {rel_path}: {e}")
                 continue
-        # 🧠 Bildunterschriften generieren, wenn noch keine da sind
+
+        # Generate captions if missing
         if "captions" not in entry:
             try:
                 excluded_images = ["favicon", "icon", "logo", "thumbnail", "manifest"]
@@ -154,7 +183,7 @@ def main():
                 with Image.open(img_path) as img:
                     width, height = img.size
 
-                # Kleine Bilder überspringen (z. B. Icons, Favicons)
+                # Skip very small assets (likely icons)
                 if width < 300 or height < 300:
                     print(f"⏭️  Skipping small image: {rel_path}")
                     continue
@@ -171,7 +200,7 @@ def main():
             except Exception as e:
                 print(f"❌ Gemini caption error for {rel_path}: {e}")
 
-        # 🖼️ WebP-Erzeugung
+        # Create WebP if missing
         webp_path = img_path.with_suffix(".webp")
         if not webp_path.exists():
             try:
@@ -181,7 +210,7 @@ def main():
             except Exception as e:
                 print(f"❌ WebP conversion failed for {rel_path}: {e}")
 
-        # 🔁 Eintrag speichern/überschreiben
+        # Save / update entry
         metadata[rel_path] = entry
 
     save_metadata(metadata)
