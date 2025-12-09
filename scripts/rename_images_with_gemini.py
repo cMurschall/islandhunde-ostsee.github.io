@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # ── Config ────────────────────────────────────────────────────────────────────
-TARGET_DIR = Path(r"D:\projects\islandhunde-ostsee\static\images\wuerfe\a\week4")
+TARGET_DIR = Path(r"D:\projects\islandhunde-ostsee\static\images\wuerfe\a\week8")
 VALID_EXTS = (".jpg", ".jpeg", ".png")
 MODEL_ID = "gemini-2.5-flash"  # multimodal, current alias
 TEMPERATURE = 0.3
@@ -109,37 +109,6 @@ def rename_with_gemini():
             print(f"❌ Error on {img_path.name}: {e}")
 
 
-def rename_hund_to_islandhund():
-    print(f"🔁 Replace 'hund' -> 'islandhund' under: {TARGET_DIR.resolve()}")
-    files = [p for p in TARGET_DIR.iterdir() if p.is_file() and p.suffix.lower() in VALID_EXTS]
-    for img_path in files:
-        lower = img_path.name.lower()
-        if "hund" in lower:
-            new_name = lower.replace("hund", "islandhund")
-            new_path = img_path.with_name(slugify_basename(new_name) + img_path.suffix.lower())
-            if new_path.exists():
-                print(f"⚠️  Target exists: {new_path.name} – skipped.")
-                continue
-            img_path.rename(new_path)
-            print(f"✅ Renamed: {img_path.name} → {new_path.name}")
-
-
-def rename_border_collie_to_islandhund():
-    print(f"🔁 Replace 'border-collie' -> 'islandhund' under: {TARGET_DIR.resolve()}")
-    files = [p for p in TARGET_DIR.iterdir() if p.is_file() and p.suffix.lower() in VALID_EXTS]
-    for img_path in files:
-        lower = img_path.name.lower()
-        if "border-collie" in lower:
-            new_name = lower.replace("border-collie", "islandhund")
-            new_path = img_path.with_name(slugify_basename(new_name) + img_path.suffix.lower())
-            if new_path.exists():
-                print(f"⚠️  Target exists: {new_path.name} – skipped.")
-                continue
-            img_path.rename(new_path)
-            print(f"✅ Renamed: {img_path.name} → {new_path.name}")
-
 
 if __name__ == "__main__":
     rename_with_gemini()
-    # rename_hund_to_islandhund()
-    # rename_border_collie_to_islandhund()

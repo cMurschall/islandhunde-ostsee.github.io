@@ -8,7 +8,7 @@ from google import genai
 from google.genai import types
 
 # 📁 Settings
-target_dir = Path(r"D:\projects\islandhunde-ostsee\static\images\wuerfe\a\week4")
+target_dir = Path(r"D:\projects\islandhunde-ostsee\static\images\wuerfe\a\week8")
 quality = 80
 output_json = "image_metadata.json"
 valid_extensions = (".jpg", ".jpeg", ".png")
