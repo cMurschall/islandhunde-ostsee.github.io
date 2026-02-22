@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "hugo": "hugo server -D",
     "build": "esbuild assets/js/dogPedigreeChartBundle.js --bundle --format=iife --target=es2015  --outfile=assets/js/dogPedigreeChart.js"
   },
   "keywords": [],

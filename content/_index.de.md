@@ -21,18 +21,13 @@ breadcrumb: " "
    height="1536"
 >}}
 
-{{< alert title="Welpen-Update: 4 Wochen alt!" >}}
+{{< alert title="Welpen-Update: 4 Wochen alt!" date="2025-10-28" >}}
 
 Unsere kleinen Islandhunde sind jetzt **vier Wochen alt** und entdecken mit neugierigen Blicken die große Welt! 🐶🌿
-Sie spielen, toben und genießen ihre ersten Ausflüge in den Garten – die Entwicklung ist einfach wunderbar mit anzusehen.
+Sie spielen, toben und genießen ihre ersten Ausflüge in den Garten - die Entwicklung ist einfach wunderbar mit anzusehen.
 
 👉 Mehr Bilder und Infos findest du im [4-Wochen-Update](/posts/a-wurf-4-weeks/).
 
-
-Einige unserer Welpen suchen noch ein liebevolles Zuhause. ❤️
-Wenn du Interesse an einem unserer Islandhunde hast, **melde dich gerne bei uns** – wir freuen uns über deine Nachricht und erzählen dir mehr über die Kleinen!
-
-📩 [Jetzt Kontakt aufnehmen](#kontakt)
 
 ![Vier Wochen alte Islandhund-Welpen](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
 {{< /alert >}}
@@ -73,7 +68,7 @@ Lerne unsere Zuchthunde kennen mit liebevollen Porträts, Ahnentafeln und Gesund
 
 ## Artikel & Wissenswertes
 
-Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahrungen aus dem Züchteralltag, geben Einblicke in Erziehung und Gesundheit – und erzählen Geschichten rund um unsere Hunde.
+Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahrungen aus dem Züchteralltag, geben Einblicke in Erziehung und Gesundheit - und erzählen Geschichten rund um unsere Hunde.
 
 ➡️ [Zu unseren Artikeln und Blogbeiträgen](/posts/) -->
 
@@ -88,22 +83,22 @@ Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Isl
 ---
 
 
-<!-- Unsere Geschichte – Wie alles begann
+<!-- Unsere Geschichte - Wie alles begann
 
-Manchmal findet nicht der Mensch zur Rasse – sondern die Rasse zum Menschen.
+Manchmal findet nicht der Mensch zur Rasse - sondern die Rasse zum Menschen.
 
 Unsere ersten Hunde waren ein Border Collie und später eine Mischung aus Border Collie und Islandhund. Mit ihnen begann unsere Liebe zu klugen, feinfühligen Hunden mit viel Persönlichkeit.
 
-Heute leben drei Islandhunde mit uns auf dem Hof – mitten im Familienleben, zwischen Pferden, Katzen und Kindern. Irgendwann war klar: Diese besondere Rasse verdient es, in ihrem Wesen erhalten zu bleiben – und wir möchten dazu beitragen. Ganz ohne große Zuchtambitionen, sondern mit Herz und Verstand.
+Heute leben drei Islandhunde mit uns auf dem Hof - mitten im Familienleben, zwischen Pferden, Katzen und Kindern. Irgendwann war klar: Diese besondere Rasse verdient es, in ihrem Wesen erhalten zu bleiben - und wir möchten dazu beitragen. Ganz ohne große Zuchtambitionen, sondern mit Herz und Verstand.
 
-Wir züchten, weil wir die Hunde haben – und sie lieben.
+Wir züchten, weil wir die Hunde haben - und sie lieben.
 
 
 --- -->
 
 ## Kontakt
 
-Du möchtest uns und unsere Hunde kennenlernen – oder hast Fragen zur Rasse oder unserer Zucht?
+Du möchtest uns und unsere Hunde kennenlernen - oder hast Fragen zur Rasse oder unserer Zucht?
 
 📩 Schreib uns gern eine E-Mail an [**islandhunde.ostsee@googlemail.com**](mailto:islandhunde.ostsee@googlemail.com)
 

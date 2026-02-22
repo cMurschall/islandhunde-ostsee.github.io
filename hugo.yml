@@ -13,6 +13,7 @@ languages:
     title: Islandhunde Ostsee
     params:
       languageAltTitle: "Deutsch"
+      dateFormat: "02.01.2006"
   en:
     languageName: ":gb:"
     languageAltTitle: "English"
@@ -20,6 +21,7 @@ languages:
     title: Icelandic Sheepdogs Baltic Sea
     params:
       languageAltTitle: "English"
+      dateFormat: "January 2, 2006"
 
 
 title: Islandhunde Kjölavík

@@ -18,6 +18,7 @@
 {{- end }}
 {{- end }}
 
-<!-- {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
-{{- end -}} -->
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;&#183;&nbsp;" | safeHTML -}}
+{{- end -}}
+

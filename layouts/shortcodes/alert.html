@@ -1,4 +1,9 @@
 <div style="border: 3px solid {{ .Get "color" | default "#f39c12" }}; background-color: {{ .Get "bg" | default "#fff3cd" }}; padding: 1.5rem; border-radius: 10px; margin-bottom: 2rem;">
   <h2 style="margin-top: 0;">{{ .Get "title" }}</h2>
   <div>{{ .Inner | markdownify }}</div>
+  {{- with .Get "date" }}
+  <div style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.85;">
+    {{ . | time.AsTime | time.Format (default "January 2, 2006" site.Params.DateFormat) }}
+  </div>
+  {{- end }}
 </div>
