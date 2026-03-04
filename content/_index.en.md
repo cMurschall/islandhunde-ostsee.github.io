@@ -18,7 +18,7 @@ breadcrumb: " "
    height="1536"
 >}}
 
-{{< alert title="Puppy Update: 4 Weeks Old!" date="2025-10-28" >}}
+<!-- {{< alert title="Puppy Update: 4 Weeks Old!" date="2025-10-28" >}}
 
 Our little Icelandic Sheepdogs are now **four weeks old** and are eagerly discovering the big world around them! 🐶🌿
 They love to play, explore, and enjoy their first little adventures in the garden - it’s a joy to watch them grow and develop.
@@ -27,7 +27,7 @@ They love to play, explore, and enjoy their first little adventures in the garde
 
 
 ![Four-week-old Icelandic Sheepdog puppies](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
-{{< /alert >}}
+{{< /alert >}} -->
 
 
 
