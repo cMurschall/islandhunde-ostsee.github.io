@@ -75,12 +75,12 @@ Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahru
 
 ---
 
-## Wurfplanung & Welpen
+<!-- ## Wurfplanung & Welpen
 
 Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Islandhund findest du hier:
 ➡️ [Zur Wurfplanung](/wurfplanung/) -->
 
----
+--- -->
 
 
 <!-- Unsere Geschichte - Wie alles begann

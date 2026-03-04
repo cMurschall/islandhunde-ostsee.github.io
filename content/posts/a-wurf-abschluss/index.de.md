@@ -1,6 +1,6 @@
 ---
 title: "Abschluss unseres A-Wurfs"
-date: 2025-02-01
+date: 2025-12-14
 draft: false
 tags: [Welpen, A-Wurf, Islandhund, Birna, Abschluss]
 categories: [Nachrichten]
@@ -112,7 +112,7 @@ gallery:
 
 ### Abschluss unseres A-Wurfs
 
-{{< responsive-figure
+<!-- {{< responsive-figure
    src="/images/wuerfe/a/week8/icelandic-sheepdog-puppy.webp"
    alt="Portrait unseres A-Wurfs kurz vor dem Auszug."
    caption="Unser A-Wurf – sechs Welpen kurz vor dem Umzug in ihre neuen Familien."
@@ -120,13 +120,13 @@ gallery:
    lazy="true"
    width="2048"
    height="1536"
->}}
+>}} -->
 
 Unser A-Wurf ist nun abgeschlossen. Die sechs Welpen haben sich in den ersten Wochen gesund und altersgerecht entwickelt und sind inzwischen in ihre neuen Familien gezogen. Während der Aufzucht lag der Schwerpunkt auf einer ruhigen, strukturierten Umgebung, einer guten Sozialisation im Rudel sowie dem behutsamen Kennenlernen von Alltagssituationen auf dem Hof.
 
 Regelmäßige tierärztliche Untersuchungen und Gewichtskontrollen begleiteten die Entwicklung der Welpen. Kurze Ausflüge, der Kontakt zu Kindern und Besuchern sowie verschiedene Untergründe und Umgebungen gehörten zu ihrem Programm. Alle Welpen zeigten sich dabei neugierig und offen.
 
-### Die Welpen im Überblick
+<!-- ### Die Welpen im Überblick
 
 **Trausti**
 Ruhiger, ausgeglichener Rüde mit sicherem Auftreten, der neue Situationen aufmerksam beobachtet.
@@ -144,7 +144,7 @@ Lebhafte, aufmerksame Hündin, offen für Umweltreize und stets interessiert an 
 Verschmuster, freundlicher Rüde mit viel Nähe zum Menschen und einem insgesamt ruhigen Grundcharakter.
 
 **Bria**
-Selbstbewusste, aufgeschlossene Hündin mit klarer Kommunikation im Rudel.
+Selbstbewusste, aufgeschlossene Hündin mit klarer Kommunikation im Rudel. -->
 
 Wir bedanken uns bei den neuen Besitzern für ihr Vertrauen und freuen uns darauf, die weitere Entwicklung der jungen Hunde zu verfolgen. Für Fragen rund um den Wurf und ihre weitere Entwicklung stehen wir weiterhin gern als Ansprechpartner zur Verfügung.
 

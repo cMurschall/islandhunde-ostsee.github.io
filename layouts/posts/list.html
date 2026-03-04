@@ -52,6 +52,7 @@
 
 
 {{- $pages := union .RegularPages .Sections }}
+{{- $pages = $pages.ByDate.Reverse }}
 
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
