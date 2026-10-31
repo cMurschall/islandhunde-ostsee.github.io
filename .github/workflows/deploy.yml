@@ -42,37 +42,57 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
           sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
       - name: Install Dart Sass
         run: |
           wget -O ${{ runner.temp }}/dart-sass.tar.gz https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
           tar -xf ${{ runner.temp }}/dart-sass.tar.gz --directory ${{ runner.temp }}
           mv ${{ runner.temp }}/dart-sass/ /usr/local/bin
           echo "/usr/local/bin/dart-sass" >> $GITHUB_PATH
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
+      # OPTIMIERT: Node.js Caching aktiviert
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+          cache: 'npm'
+
       - name: Install Node.js dependencies
         run: npm install
-      - name: Cache Restore
+
+      # NEU: Python Setup inkl. Pip-Caching
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # OPTIMIERT: Hugo Cache Key
+      - name: Cache Restore (Hugo)
         id: cache-restore
         uses: actions/cache/restore@v4
         with:
-          path: |
-            ${{ runner.temp }}/hugo_cache
-          key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ runner.os }}-hugo-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
       - name: Configure Git
         run: git config core.quotepath false
+
       - name: Build with Hugo
         run: |
           hugo \
@@ -80,16 +100,23 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-      - name: Cache Save
+
+      - name: Cache Save (Hugo)
         id: cache-save
         uses: actions/cache/save@v4
         with:
-          path: |
-            ${{ runner.temp }}/hugo_cache
+          path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
 
-      - name: Install Pillow
-        run: pip install pillow
+      # NEU: Bilder-Cache laden und speichern
+      - name: Cache WebP Images
+        id: webp-cache
+        uses: actions/cache@v4
+        with:
+          path: public/**/*.webp
+          key: ${{ runner.os }}-webp-images-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-webp-images-
 
       - name: Convert images to WebP
         run: python3 scripts/convert-to-webp.py

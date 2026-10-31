@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 ENV HUGO_VERSION=0.147.9
 ENV DART_SASS_VERSION=1.89.2
-ENV NODE_VERSION=20
+ENV NODE_VERSION=24
 
 # Basis-Tools + Python
 RUN apt-get update && apt-get install -y \
