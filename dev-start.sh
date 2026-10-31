@@ -29,6 +29,7 @@ run_as_root() {
 
 
 # --- Schritte aus der GitHub Action ---
+echo "Starting development environment setup..."
 
 echo "0. Cleaning up previous build directory (public/)..."
 run_as_root "rm -rf ${PROJECT_DIR}/public"
@@ -61,3 +62,5 @@ docker run --rm -it \
     echo '>>> Starting Hugo development server on http://localhost:${HOST_PORT}...' &&
     hugo server --bind 0.0.0.0 -D --baseURL '/'
   "
+
+
