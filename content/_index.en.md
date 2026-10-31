@@ -18,16 +18,13 @@ breadcrumb: " "
    height="1536"
 >}}
 
-<!-- {{< alert title="Puppy Update: 4 Weeks Old!" date="2025-10-28" >}}
+{{% alert title="Litter Announcement!" %}}
+We are thrilled to announce that we are repeating the proven pairing of our **[Birna](/zuchthunde/snjobirta/)** and **[Magni](/zuchthunde/magni/)**!
 
-Our little Icelandic Sheepdogs are now **four weeks old** and are eagerly discovering the big world around them! 🐶🌿
-They love to play, explore, and enjoy their first little adventures in the garden - it’s a joy to watch them grow and develop.
+We are expecting the puppies around **November 2nd**. 🐾
 
-👉 Find more details and pictures in our [4-week update](/en/posts/a-wurf-4-weeks/).
-
-
-![Four-week-old Icelandic Sheepdog puppies](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
-{{< /alert >}} -->
+If you are interested in a puppy from this litter, please feel free to [contact us](/impressum/) early.
+{{% /alert %}}
 
 
 

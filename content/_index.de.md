@@ -21,16 +21,13 @@ breadcrumb: " "
    height="1536"
 >}}
 
-<!-- {{< alert title="Welpen-Update: 4 Wochen alt!" date="2025-10-28" >}}
+{{% alert title="Wurfankündigung!" %}}
+Wir freuen uns riesig, ankündigen zu dürfen, dass wir die bewährte Verpaarung unserer **[Birna](/zuchthunde/snjobirta/)** mit **[Magni](/zuchthunde/magni/)** wiederholen!
 
-Unsere kleinen Islandhunde sind jetzt **vier Wochen alt** und entdecken mit neugierigen Blicken die große Welt! 🐶🌿
-Sie spielen, toben und genießen ihre ersten Ausflüge in den Garten - die Entwicklung ist einfach wunderbar mit anzusehen.
+Wir erwarten die Welpen um den **2. November** herum. 🐾
 
-👉 Mehr Bilder und Infos findest du im [4-Wochen-Update](/posts/a-wurf-4-weeks/).
-
-
-![Vier Wochen alte Islandhund-Welpen](/images/wuerfe/a/week4/icelandic-puppies-1.webp)
-{{< /alert >}} -->
+Bei Interesse an einem Welpen aus dieser Verpaarung freuen wir uns über eine frühzeitige [Kontaktaufnahme](/impressum/).
+{{% /alert %}}
 
 
 Wir sind eine kleine, familiäre Islandhundezucht in Schleswig-Holstein, im hohen Norden Deutschlands, direkt an der wunderbaren Ostseeküste. Unsere Hunde leben als vollwertige Familienmitglieder mit uns auf unserem Islandpferdehof Kjölavík. Gemeinsam mit Islandpferden, Katzen und viel Publikumsverkehr inklusive Kinder jeden Alters, eingebettet in Natur, Weite und Wind.
@@ -73,14 +70,14 @@ Du möchtest mehr über Islandhunde erfahren? In unserem Blog teilen wir Erfahru
 ➡️ [Zu unseren Artikeln und Blogbeiträgen](/posts/) -->
 
 
----
+
 
 <!-- ## Wurfplanung & Welpen
 
 Alle Infos zu geplanten Würfen, freien Welpenplätzen und dem Weg zu deinem Islandhund findest du hier:
 ➡️ [Zur Wurfplanung](/wurfplanung/) -->
 
---- -->
+
 
 
 <!-- Unsere Geschichte - Wie alles begann
@@ -94,7 +91,8 @@ Heute leben drei Islandhunde mit uns auf dem Hof - mitten im Familienleben, zwis
 Wir züchten, weil wir die Hunde haben - und sie lieben.
 
 
---- -->
+--- 
+-->
 
 ## Kontakt
 
